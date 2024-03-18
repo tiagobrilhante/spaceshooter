@@ -1,9 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-// se destroi ao sair da room
-
-if( y > room_height + 100)
-{
-	instance_destroy(id, false);
-}
+ 
+image_xscale = lerp(image_xscale, 1, 0.5);
+image_yscale = lerp(image_yscale, 1, 0.5);
