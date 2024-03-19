@@ -21,7 +21,9 @@ x += _right * velocidade;
 /// criando escudo
 if(_shield)
 {
-	instance_create_layer(x, y, "Escudo", obj_escudo);
+	var _escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
+	
+	_escudo.alvo = id;
 }
 
 
@@ -55,6 +57,6 @@ if(keyboard_check_pressed(vk_left) && espera_tiro > 20)
 
 if(keyboard_check_pressed(vk_right) && espera_tiro < 20)
 {
-	espera_tiro *=.1.1;	
+	espera_tiro *= 1.1;	
 }
 

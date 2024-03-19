@@ -1,8 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+image_speed = 0;
+image_index = 2;
 
-alvo = noone;
-
-// aumentando a escala
-image_xscale = 1.2;
-image_yscale = image_xscale;
+alarm[0] = room_speed * 2;

@@ -89,7 +89,7 @@ level_up = function(_chance)
 			level_tiro++;
 		}
 	}
-	else if if(_chance >= 45)
+	else if(_chance >= 45)
 	{
 		// aumenta o lvl do tiro
 		if(espera_tiro > 20)
