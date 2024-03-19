@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"obj_tiro2_player",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"obj_tiro2_player",
   "overriddenProperties":[],
   "parent":{
     "name":"Player",
     "path":"folders/Objects/Player.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_tiro_player",
+    "path":"objects/obj_tiro_player/obj_tiro_player.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player",
-    "path":"sprites/spr_player/spr_player.yy",
+    "name":"spr_tiro2_player",
+    "path":"sprites/spr_tiro2_player/spr_tiro2_player.yy",
   },
   "spriteMaskId":null,
   "visible":true,

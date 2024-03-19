@@ -6,6 +6,9 @@ event_inherited();
 
 // criando a flag de controle para saber se pode se mover
 
+chance = 30;
+
+pontos = 20;
 posso_me_mover_para_lado = true;
 
 
