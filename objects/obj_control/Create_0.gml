@@ -10,6 +10,10 @@ level = 1;
 
 proximo_level = 100;
 
+// variavel de controle gameover
+
+gameover_seq = noone;
+
 // metodo de pontos
 ///@method ganha_pontos(pontos)
 ganha_pontos = function(_pontos)
@@ -29,7 +33,9 @@ ganha_pontos = function(_pontos)
 cria_inimigo = function()
 {
 	var _xx = irandom_range(64, 1888);
-	var _yy = irandom_range(-96, -1504);
+	
+	// aumemnta o li,ite com base no lvl do jogo
+	var _yy = irandom_range(-96, -1504 - (level*800 ));
 
 	// cria o inimigo com base no lvl
 	var _chance = random_range(0, level);

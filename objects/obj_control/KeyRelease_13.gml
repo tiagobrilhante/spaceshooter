@@ -1,9 +1,8 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-if(!alvo or !instance_exists(alvo))
+if(gameover_seq)
 {
-	instance_destroy();
+	room_restart();
 }
-x= alvo.x;
-y= alvo.y;
+ 

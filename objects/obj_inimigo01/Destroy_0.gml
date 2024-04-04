@@ -9,3 +9,5 @@ if(instance_exists(obj_control)) obj_control.ganha_pontos(pontos);
 
 // dopando o item
 dropa_item(chance);
+
+screenshake(10);

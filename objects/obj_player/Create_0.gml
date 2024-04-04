@@ -11,6 +11,10 @@ espera_tiro = room_speed;
 
 level_tiro = 1;
 
+vida = 3;
+
+escudos = 3;
+
 atirando = function()
 {
 	var _fire = keyboard_check(vk_space);
@@ -105,5 +109,22 @@ level_up = function(_chance)
 		}
 	}
 		
+		
+}
+
+///@method perde_vida();
+perde_vida = function()
+{
+	if(vida >0)
+	{
+		vida--;
+		screenshake(5);
+	}
+	else
+	{
+		instance_destroy();
+		
+		screenshake(20);
+	}
 		
 }
