@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-vspeed = -10;
+vspeed = -15;
 
 image_xscale = 3;
 image_yscale = 3;

@@ -92,13 +92,25 @@ level_up = function(_chance)
 		{
 			level_tiro++;
 		}
+	else 
+	{
+		// se não, da pontos
+		ganhando_pontos(100);
+	
+	}
+	
+	
 	}
 	else if(_chance >= 45)
 	{
 		// aumenta o lvl do tiro
-		if(espera_tiro > 20)
+		if(espera_tiro > 15)
 		{
 			espera_tiro *= .9;
+		}
+		else
+		{
+			ganhando_pontos(10);
 		}
 	} 
 	else 
@@ -106,6 +118,10 @@ level_up = function(_chance)
 		if(velocidade < 10)
 		{
 			velocidade +=.5;
+		}
+		else
+		{
+			ganhando_pontos(10);
 		}
 	}
 		

@@ -26,7 +26,7 @@ dropa_item = function(_chance)
 {
 	var _valor = random(100);
 	
-	if(_valor < _chance)
+	if(_valor < _chance && y >96)
 	{
 		instance_create_layer(x, y, "Tiros", obj_power_up);
 	}

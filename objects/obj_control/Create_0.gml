@@ -1,6 +1,9 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+// randomizando o jogo
+
+randomize();
 
 alarm[0] = room_speed;
 
@@ -18,12 +21,26 @@ gameover_seq = noone;
 ///@method ganha_pontos(pontos)
 ganha_pontos = function(_pontos)
 {
-	pontos += _pontos;
+	pontos += _pontos * level;
 	
 	if(pontos > proximo_level) 
 	{
 		level++;
 		proximo_level *= 2;
+		/*
+		1 = 0
+		2 = 100
+		3 = 200
+		4 = 400
+		5 = 800
+		6 = 1600
+		7 = 3200
+		8 = 6400 
+		9 = 12800
+		10 = 25600
+		*/
+		
+		
 	}
 	
 }
