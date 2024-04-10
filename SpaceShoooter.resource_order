@@ -26,6 +26,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_boss_minion","order":1,"path":"objects/obj_boss_minion/obj_boss_minion.yy",},
+    {"name":"obj_botao","order":4,"path":"objects/obj_botao/obj_botao.yy",},
     {"name":"obj_control","order":6,"path":"objects/obj_control/obj_control.yy",},
     {"name":"obj_escudo","order":3,"path":"objects/obj_escudo/obj_escudo.yy",},
     {"name":"obj_explosao","order":1,"path":"objects/obj_explosao/obj_explosao.yy",},
@@ -37,7 +38,7 @@
     {"name":"obj_tiro_minion","order":2,"path":"objects/obj_tiro_minion/obj_tiro_minion.yy",},
     {"name":"obj_tiro_player","order":1,"path":"objects/obj_tiro_player/obj_tiro_player.yy",},
     {"name":"obj_tiro2_player","order":2,"path":"objects/obj_tiro2_player/obj_tiro2_player.yy",},
-    {"name":"obj_botao","order":4,"path":"objects/obj_botao/obj_botao.yy",},
+    {"name":"obj_transicao","order":5,"path":"objects/obj_transicao/obj_transicao.yy",},
     {"name":"rm_inicio","order":1,"path":"rooms/rm_inicio/rm_inicio.yy",},
     {"name":"rm_pontos","order":2,"path":"rooms/rm_pontos/rm_pontos.yy",},
     {"name":"sq_boss_entrada","order":1,"path":"sequences/sq_boss_entrada/sq_boss_entrada.yy",},
