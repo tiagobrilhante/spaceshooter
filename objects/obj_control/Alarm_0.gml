@@ -4,9 +4,24 @@
 if(!instance_exists(obj_inimigo01))
 {
 	var _repetir = 	10 * level;
-	repeat(_repetir)
+	
+	// no lvl 10 cria o boss (seq entrada boss)
+	
+	if(level < 10)
 	{
-		cria_inimigo();
+		repeat(_repetir)
+		{
+			cria_inimigo();
+		}
 	}
+	else
+	{
+		if(criar_boss)
+		{
+			layer_sequence_create("Boss_entrada", 960, 512, sq_boss_entrada);
+			criar_boss = false;
+		}
+	}
+	
 }
 alarm[0] = room_speed * 5;

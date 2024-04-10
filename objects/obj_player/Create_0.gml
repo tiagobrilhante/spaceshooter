@@ -15,6 +15,8 @@ vida = 3;
 
 escudos = 3;
 
+meu_escudo = noone;
+
 atirando = function()
 {
 	var _fire = keyboard_check(vk_space);
@@ -131,16 +133,38 @@ level_up = function(_chance)
 ///@method perde_vida();
 perde_vida = function()
 {
-	if(vida >0)
+	// so perde vida se nõa tem ecudo
+	
+	if(!meu_escudo)
 	{
-		vida--;
-		screenshake(5);
+		if(vida >0)
+		{
+			vida--;
+			Funcoes(5);
+		}
+		else
+		{
+			instance_destroy();
+		
+			Funcoes(20);
+		}
 	}
-	else
+		
+}
+
+
+cria_escudo = function()
+{
+	var _shield = keyboard_check_pressed(ord("E"));
+		/// criando escudo
+	if(_shield && escudos > 0 && !meu_escudo)
 	{
-		instance_destroy();
-		
-		screenshake(20);
+		var _escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
+	
+		_escudo.alvo = id;
+	
+		meu_escudo = _escudo;
+	
+		escudos--;
 	}
-		
 }

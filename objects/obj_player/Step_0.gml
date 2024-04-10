@@ -1,13 +1,13 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-var _up, _down, _left, _right, _shield;
+var _up, _down, _left, _right;
  
 _up = keyboard_check(ord("W"));
 _down = keyboard_check(ord("S"));
 _left = keyboard_check(ord("A"));
 _right = keyboard_check(ord("D"));
-_shield = keyboard_check_pressed(ord("E"));
+
 
  
 /*
@@ -18,15 +18,7 @@ x += _right * velocidade;
 */
 
 
-/// criando escudo
-if(_shield && escudos > 0)
-{
-	var _escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
-	
-	_escudo.alvo = id;
-	
-	escudos--;
-}
+cria_escudo();
 
 
 

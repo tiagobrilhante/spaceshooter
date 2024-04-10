@@ -17,3 +17,14 @@ function ganhando_pontos(_pontos)
 		obj_control.ganha_pontos(_pontos);
 	}
 }
+
+// destruindo sequencia
+function destroi_seq()
+{
+	//layer_sequence_destroy("Sequences");
+	var _elementos = layer_get_all_elements("Boss_entrada");
+	layer_sequence_destroy(_elementos[0]);
+	
+	// crio o boss 
+	instance_create_layer(960, 256, "Boss", obj_boss);
+}
