@@ -10,4 +10,4 @@ ganhando_pontos(pontos);
 // dopando o item
 dropa_item(chance);
 
-Funcoes(10);
+screenshake(10);

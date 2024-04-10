@@ -11,14 +11,16 @@ pontos = 0;
 
 level = 1;
 
-//proximo_level = 100;
-proximo_level = 1;
+proximo_level = 100;
+// proximo_level = 1;
 
 // variavel de controle gameover
 
 gameover_seq = noone;
 
 criar_boss = true;
+
+level_completo = false;
 
 // metodo de pontos
 ///@method ganha_pontos(pontos)

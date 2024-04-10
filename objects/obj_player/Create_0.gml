@@ -140,13 +140,13 @@ perde_vida = function()
 		if(vida >0)
 		{
 			vida--;
-			Funcoes(5);
+			screenshake(5);
 		}
 		else
 		{
 			instance_destroy();
 		
-			Funcoes(20);
+			Fuscreescreenshakenshakencoes(20);
 		}
 	}
 		

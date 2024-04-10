@@ -28,3 +28,21 @@ function destroi_seq()
 	// crio o boss 
 	instance_create_layer(960, 256, "Boss", obj_boss);
 }
+
+// seq player
+function cria_seq()
+{
+	if (instance_exists(obj_player))
+		layer_sequence_create("Sequences", obj_player.x, obj_player.y, sq_level_end);
+		instance_destroy(obj_player, false); 
+		
+		// impedindo o game over
+		if(instance_exists(obj_control))
+		{
+			obj_control.level_completo = true;
+		}
+		
+	{
+		
+	}
+}
