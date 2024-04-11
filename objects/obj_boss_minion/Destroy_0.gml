@@ -4,3 +4,5 @@
 // cia a explosão
 
 instance_create_layer(x, y, "Tiros", obj_explosao);
+
+global.total_inimigos++;

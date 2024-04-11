@@ -11,3 +11,6 @@ ganhando_pontos(pontos);
 dropa_item(chance);
 
 screenshake(10);
+
+// aumenta contagem ini mortos
+global.total_inimigos++;

@@ -16,11 +16,17 @@
   },
   "eventStubScript":null,
   "eventToFunction":{},
-  "length":60.0,
+  "length":90.0,
   "lockOrigin":false,
   "moments":{
     "$KeyframeStore<MomentsEventKeyframe>":"",
-    "Keyframes":[],
+    "Keyframes":[
+      {"$Keyframe<MomentsEventKeyframe>":"","Channels":{
+          "0":{"$MomentsEventKeyframe":"","Events":[
+              "cria_transicao",
+            ],"resourceType":"MomentsEventKeyframe","resourceVersion":"2.0",},
+        },"Disabled":false,"id":"e6204e6c-a13d-4d29-8298-0464736882de","IsCreationKey":false,"Key":89.9999,"Length":1.0,"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
+    ],
     "resourceType":"KeyframeStore<MomentsEventKeyframe>",
     "resourceVersion":"2.0",
   },
@@ -42,7 +48,7 @@
     {"$GMGraphicTrack":"","%Name":"spr_player","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetSpriteKeyframe>":"","Keyframes":[
           {"$Keyframe<AssetSpriteKeyframe>":"","Channels":{
               "0":{"$AssetSpriteKeyframe":"","Id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"resourceType":"AssetSpriteKeyframe","resourceVersion":"2.0",},
-            },"Disabled":false,"id":"94f252d0-1b1d-4873-b119-1652ea109107","IsCreationKey":false,"Key":0.0,"Length":60.0,"resourceType":"Keyframe<AssetSpriteKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            },"Disabled":false,"id":"94f252d0-1b1d-4873-b119-1652ea109107","IsCreationKey":false,"Key":0.0,"Length":91.0,"resourceType":"Keyframe<AssetSpriteKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AssetSpriteKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"spr_player","resourceType":"GMGraphicTrack","resourceVersion":"2.0","trackColour":4292801096,"tracks":[
         {"$GMRealTrack":"","%Name":"origin","builtinName":16,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[
               {"$Keyframe<RealKeyframe>":"","Channels":{
