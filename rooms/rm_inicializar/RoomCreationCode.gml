@@ -1,4 +1,7 @@
 // pontuacao mais alta
+
+randomize();
+
 global.max_pontos = 0;
 
 // num morte
