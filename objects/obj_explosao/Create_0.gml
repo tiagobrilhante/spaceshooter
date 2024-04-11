@@ -4,3 +4,7 @@ cores = choose(c_yellow, c_red, c_fuchsia, c_lime, c_aqua, c_green, c_maroon, c_
 
 image_xscale = 3;
 image_yscale = 3;
+
+// toca explosao
+
+audio_play_sound(sfx_explosion, 2, false);

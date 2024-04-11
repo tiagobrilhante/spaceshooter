@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"sfx_laser1.ogg",
   "type":0,
-  "volume":1.0,
+  "volume":0.14,
 }

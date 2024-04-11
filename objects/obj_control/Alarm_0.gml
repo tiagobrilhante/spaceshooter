@@ -20,6 +20,8 @@ if(!instance_exists(obj_inimigo01))
 		{
 			layer_sequence_create("Boss_entrada", 960, 512, sq_boss_entrada);
 			criar_boss = false;
+			
+			audio_stop_all();
 		}
 	}
 	

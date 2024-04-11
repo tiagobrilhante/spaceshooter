@@ -27,6 +27,9 @@ atirando = function()
 	{
 		alarm[0] = espera_tiro;
 		
+		// som do tiro
+		audio_play_sound(sfx_laser2 , 1 ,0);
+		
 		// crio tiro
 		if(level_tiro == 1)
 		{
@@ -146,7 +149,7 @@ perde_vida = function()
 		{
 			instance_destroy();
 		
-			Fuscreescreenshakenshakencoes(20);
+			screenshake(20);
 		}
 	}
 		

@@ -3,5 +3,6 @@
 
 // desenhando os pontos
 
-draw_text(20, 20, pontos);
-draw_text(20, 40, level);
+draw_set_alpha(.5);
+draw_text(25, 20, "Pontos: " + string(pontos));
+draw_set_alpha(1);
