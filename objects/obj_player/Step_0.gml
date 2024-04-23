@@ -18,6 +18,20 @@ x += _right * velocidade;
 */
 
 
+// Adicionando suporte a gamepad
+// Assumindo que estamos usando o gamepad 0 (o primeiro gamepad conectado)
+
+
+// Checar se um gamepad está conectado
+if (gamepad_is_connected(gamepad_index)) {
+    _up |= (gamepad_button_check(gamepad_index, gp_padu) || gamepad_axis_value(gamepad_index, gp_axislv) < -0.5);
+    _down |= (gamepad_button_check(gamepad_index, gp_padd) || gamepad_axis_value(gamepad_index, gp_axislv) > 0.5);
+    _left |= (gamepad_button_check(gamepad_index, gp_padl) || gamepad_axis_value(gamepad_index, gp_axislh) < -0.5);
+    _right |= (gamepad_button_check(gamepad_index, gp_padr) || gamepad_axis_value(gamepad_index, gp_axislh) > 0.5);
+}
+
+
+
 cria_escudo();
 
 y += (_down - _up) * velocidade; 

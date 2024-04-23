@@ -17,9 +17,16 @@ escudos = 3;
 
 meu_escudo = noone;
 
+gamepad_index = 0;
+
 atirando = function()
 {
 	var _fire = keyboard_check(vk_space);
+	
+	if (gamepad_is_connected(gamepad_index)) {
+		_fire |= (gamepad_button_check(gamepad_index, gp_face3));
+	}
+	
 	
 	var _y_tiro = y - sprite_height/3;
 	var _x_tiro = 60;
@@ -159,6 +166,13 @@ perde_vida = function()
 cria_escudo = function()
 {
 	var _shield = keyboard_check_pressed(ord("E"));
+	
+	
+	if (gamepad_is_connected(gamepad_index)) {
+		_shield |= (gamepad_button_check(gamepad_index, gp_face2));
+	}
+	
+	
 		/// criando escudo
 	if(_shield && escudos > 0 && !meu_escudo)
 	{
