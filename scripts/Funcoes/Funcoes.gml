@@ -54,3 +54,10 @@ function cria_transicao()
 
 
 }
+
+function elimina_seq()
+{
+	var _elementos = layer_get_all_elements("Sequence_Planetas");
+	layer_sequence_destroy(_elementos[0]);
+	
+}

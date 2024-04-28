@@ -4,4 +4,3 @@
 texto = "";
 
 destino = rm_inicio;
-// teste

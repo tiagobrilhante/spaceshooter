@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_abertura",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":130.77179,
+  "name":"snd_abertura",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_abertura.wav",
+  "type":0,
+  "volume":1.0,
+}

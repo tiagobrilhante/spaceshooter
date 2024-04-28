@@ -9,6 +9,10 @@ velocidade = 5;
 
 espera_tiro = room_speed;
 
+// facilita indicadores de GUI
+nv_vel_tiro =1;
+nv_vel_ship = 1;
+// fim variável de referências
 level_tiro = 1;
 
 vida = 3;
@@ -119,6 +123,7 @@ level_up = function(_chance)
 		if(espera_tiro > 15)
 		{
 			espera_tiro *= .9;
+			nv_vel_tiro++;
 		}
 		else
 		{
@@ -130,6 +135,7 @@ level_up = function(_chance)
 		if(velocidade < 10)
 		{
 			velocidade +=.5;
+			nv_vel_ship++;
 		}
 		else
 		{

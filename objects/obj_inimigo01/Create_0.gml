@@ -4,7 +4,8 @@
 vspeed = 3;
 
 // porcentagem de dropar item
-chance = 25; 
+// chance = 25; 
+chance = 50; 
 pontos = 10;
 
 alarm[0] = random_range(1,3);

@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Etc",
-    "path":"folders/Sprites/Etc.yy",
+    "name":"powerup",
+    "path":"folders/Sprites/Etc/powerup.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

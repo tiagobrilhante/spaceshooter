@@ -19,19 +19,29 @@ direction = irandom(359)
 // iniciando o alarme para sumir com o powerup
 alarm[0] = room_speed;
 
-// depende daa chance altera a cor
-if(chance >= 90)
+
+porcentagem_drop = function(_valor)
 {
-	cor = c_maroon
+	return 100 - _valor;
+}
+
+
+// depende daa chance altera a cor
+if(chance >= porcentagem_drop(10))
+{
+	// boost no tiro
+	cor = c_white
+	sprite_index = spr_power_up_shot;
 }
 else if(chance >= 45)
 {
-	cor = c_yellow;
+	// velocidade de tiro
+	cor = c_white;	
+	sprite_index = spr_power_up_vel_shot
 }	
 else 
 {
-	cor = c_blue;
+	// velocidade da nave
+	cor = c_yellow;
+	sprite_index = spr_power_up;
 }
-
-
-
