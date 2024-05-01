@@ -6,22 +6,39 @@
 // Level tiro - 1		- Limite = 5	// 10%
 
 velocidade = 5;
+vel_max = 10;
 
 espera_tiro = room_speed;
+base_delay_tiro = 15;
 
 // facilita indicadores de GUI
 nv_vel_tiro =1;
 nv_vel_ship = 1;
 // fim variável de referências
+max_level_tiro = 5;
 level_tiro = 1;
 
-vida = 3;
 
-escudos = 3;
+max_vida = 3;
+vida = max_vida;
+
+max_escudos = 3
+escudos = max_escudos;
 
 meu_escudo = noone;
 
 gamepad_index = 0;
+
+// Bonus de powerUp (sem uso)
+pontos_shot_pup = 100;
+pontos_shield_pup = 50;
+pontos_vida_pup = 200;
+pontos_vel_tiro_pup = 30;
+pontos_vel_nave_pup = 30;
+// taxa de aceleraçao
+tx_acelera_nave = .5;
+tx_acelera_tiro = .9;
+
 
 atirando = function()
 {
@@ -98,52 +115,72 @@ tiro4 = function()
 	}
 }
 
-///@method level_up(chance)
-level_up = function(_chance)
+///@method level_up(tipo)
+level_up = function(_tipo)
 {
-	if(_chance >= 90)
+	
+	if(_tipo == "shot")
 	{
 		// aumenta o lvl do tiro
-		if(level_tiro < 5)
+		if(level_tiro < max_level_tiro)
 		{
 			level_tiro++;
 		}
-	else 
-	{
-		// se não, da pontos
-		ganhando_pontos(100);
-	
+		else 
+		{
+			// se não, da pontos
+			ganhando_pontos(pontos_shot_pup);
+		}
 	}
-	
-	
-	}
-	else if(_chance >= 45)
+	else if(_tipo == "shield")
 	{
 		// aumenta o lvl do tiro
-		if(espera_tiro > 15)
+		if(escudos < max_escudos)
 		{
-			espera_tiro *= .9;
+			escudos++;
+		}
+		else
+		{
+			ganhando_pontos(pontos_shield_pup);
+		}
+	} 
+	else if(_tipo == "vida")
+	{
+		// aumenta o lvl do tiro
+		if(vida < max_vida)
+		{
+			vida++;
+		}
+		else
+		{
+			ganhando_pontos(pontos_vida_pup);
+		}
+	} 
+	else if(_tipo == "vel_tiro")
+	{
+		// aumenta o lvl do tiro
+		if(espera_tiro > base_delay_tiro)
+		{
+			espera_tiro *= tx_acelera_tiro;
 			nv_vel_tiro++;
 		}
 		else
 		{
-			ganhando_pontos(10);
+			ganhando_pontos(pontos_vel_tiro_pup);
 		}
-	} 
-	else 
+	}
+	else if(_tipo == "vel_nave")
 	{
-		if(velocidade < 10)
+		if(velocidade < vel_max)
 		{
-			velocidade +=.5;
+			velocidade += tx_acelera_nave;
 			nv_vel_ship++;
 		}
 		else
 		{
-			ganhando_pontos(10);
+			ganhando_pontos(pontos_vel_nave_pup);
 		}
 	}
-		
-		
 }
 
 ///@method perde_vida();
@@ -155,11 +192,14 @@ perde_vida = function()
 	{
 		if(vida >0)
 		{
+			audio_play_sound(sfx_player_get_hit, 2, false);
 			vida--;
 			screenshake(5);
 		}
 		else
 		{
+			
+			audio_play_sound(sfx_player_explosion, 2, false);
 			instance_destroy();
 		
 			screenshake(20);

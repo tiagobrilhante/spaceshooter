@@ -3,6 +3,6 @@
 
 
 // executa lvl up 
-other.level_up(chance);
+other.level_up(tipo);
 
 instance_destroy();

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_collect_powerup",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.43102,
+  "name":"sfx_collect_powerup",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_collect_powerup.wav",
+  "type":0,
+  "volume":0.51,
+}
