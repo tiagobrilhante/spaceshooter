@@ -5,7 +5,7 @@ draw_set_font(fnt_pontos);
 
 		
 draw_text(750, 378, "NOTORIOUS TEAM - Ideias hold Power");
-draw_text(350, 450, "Trabalho desenvolvido pela equipe: Notorious Team, com a finalidade de exibição na GameJam da Uninorte (Manas) no ano de 2024.");
+draw_text(350, 450, "Trabalho desenvolvido pela equipe: Notorious Team, com a finalidade de exibição na GameJam da Uninorte (Manaus) no ano de 2024.");
 draw_text(885, 520, "Membros:");
 draw_text(830, 580, "Tiago da Silva Brilhante");
 draw_text(830, 630, "Danilson Vitor da Silva");

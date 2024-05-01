@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.57542,
+  "duration":0.435397,
   "name":"sfx_player_get_hit",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_player_get_hit.wav",
+  "soundFile":"sfx_player_get_hit.ogg",
   "type":0,
-  "volume":0.37,
+  "volume":0.52,
 }
