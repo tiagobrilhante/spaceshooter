@@ -61,3 +61,10 @@ function elimina_seq()
 	layer_sequence_destroy(_elementos[0]);
 	
 }
+
+function inicia_musica_inicial()
+{
+	
+	audio_stop_all(); 
+	audio_play_sound(snd_abertura, 0, true);
+}

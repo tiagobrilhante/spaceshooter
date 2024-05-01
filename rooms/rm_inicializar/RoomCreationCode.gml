@@ -10,4 +10,8 @@ global.total_mortes = 0;
 // num inimigos mortos
 global.total_inimigos = 0;
 
+
+inicia_musica_inicial();
+
+
 room_goto(rm_inicio);
