@@ -34,17 +34,26 @@ if (gamepad_is_connected(gamepad_index)) {
 
 cria_escudo();
 
-y += (_down - _up) * velocidade; 
-x += (_right - _left) * velocidade;
-/*
-if(x <= 64) x = 64;
-if(x >= 1856) x = 1856;
-if(y <= 64) y = 64;
-if(y >= 1024) y = 1024;
-*/
+if(!global.paused)
+{
 
-// limitando a saida do player
-x = clamp(x, 64, 1856);
-y = clamp(y, 64, 1024);
+	y += (_down - _up) * velocidade; 
+	x += (_right - _left) * velocidade;
+	/*
+	if(x <= 64) x = 64;
+	if(x >= 1856) x = 1856;
+	if(y <= 64) y = 64;
+	if(y >= 1024) y = 1024;
+	*/
 
-atirando();
+	// limitando a saida do player
+	x = clamp(x, 64, 1856);
+	y = clamp(y, 64, 1024);
+
+	atirando();
+	image_speed =1;
+}
+else
+{
+	image_speed=0;
+}

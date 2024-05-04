@@ -46,6 +46,7 @@
   "name":"SpaceShoooter",
   "resources":[
     {"id":{"name":"fnt_botoes","path":"fonts/fnt_botoes/fnt_botoes.yy",},},
+    {"id":{"name":"fnt_paused","path":"fonts/fnt_paused/fnt_paused.yy",},},
     {"id":{"name":"fnt_pontos","path":"fonts/fnt_pontos/fnt_pontos.yy",},},
     {"id":{"name":"obj_boss_minion","path":"objects/obj_boss_minion/obj_boss_minion.yy",},},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},},

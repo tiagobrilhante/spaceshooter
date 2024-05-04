@@ -4,6 +4,8 @@ randomize();
 
 global.max_pontos = 0;
 
+global.paused = false;
+
 // num morte
 global.total_mortes = 0;
 

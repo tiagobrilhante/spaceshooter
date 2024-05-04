@@ -27,6 +27,7 @@
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"fnt_paused","order":2,"path":"fonts/fnt_paused/fnt_paused.yy",},
     {"name":"fnt_pontos","order":1,"path":"fonts/fnt_pontos/fnt_pontos.yy",},
     {"name":"obj_boss_minion","order":1,"path":"objects/obj_boss_minion/obj_boss_minion.yy",},
     {"name":"obj_botao","order":4,"path":"objects/obj_botao/obj_botao.yy",},
