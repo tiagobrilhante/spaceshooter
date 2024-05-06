@@ -95,6 +95,7 @@
     {"id":{"name":"snd_boss_fight","path":"sounds/snd_boss_fight/snd_boss_fight.yy",},},
     {"id":{"name":"snd_level","path":"sounds/snd_level/snd_level.yy",},},
     {"id":{"name":"snd_level1","path":"sounds/snd_level1/snd_level1.yy",},},
+    {"id":{"name":"spr_bg_teste_2","path":"sprites/spr_bg_teste_2/spr_bg_teste_2.yy",},},
     {"id":{"name":"spr_boss_chegando","path":"sprites/spr_boss_chegando/spr_boss_chegando.yy",},},
     {"id":{"name":"spr_boss_combate","path":"sprites/spr_boss_combate/spr_boss_combate.yy",},},
     {"id":{"name":"spr_boss_escudo","path":"sprites/spr_boss_escudo/spr_boss_escudo.yy",},},

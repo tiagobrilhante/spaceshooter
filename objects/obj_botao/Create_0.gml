@@ -5,7 +5,7 @@ texto = "";
 
 destino = rm_inicio;
 
-selected = c_green;
+selected = c_yellow;
 
 minha_posicao = 0;
 
