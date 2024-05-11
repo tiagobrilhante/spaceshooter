@@ -1,6 +1,9 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+
+
+
 if(!instance_exists(obj_inimigo01))
 {
 	var _repetir = 	10 * level;

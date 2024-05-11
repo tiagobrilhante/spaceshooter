@@ -12,6 +12,9 @@ pontos = 0;
 
 level = 1;
 
+
+contador = 0;
+
 proximo_level = 100;
 // proximo_level = 1;
 
