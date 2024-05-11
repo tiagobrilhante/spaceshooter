@@ -89,9 +89,6 @@ if(_down && sala_atual == "rm_inicio")
 			global.posicao_atual++;
 		}
 		
-		show_debug_message("global.posicao_atual")
-		show_debug_message(global.posicao_atual)
-		show_debug_message("global.posicao_atual")
 	}
 }
 
@@ -108,7 +105,6 @@ if(_up  && sala_atual == "rm_inicio")
 		// tenho 3 itens
 		
 		
-		
 		if (global.posicao_atual <= 1)
 		{
 			global.posicao_atual = 1;
@@ -118,8 +114,5 @@ if(_up  && sala_atual == "rm_inicio")
 			global.posicao_atual--;
 		}
 		
-		show_debug_message("global.posicao_atual")
-		show_debug_message(global.posicao_atual)
-		show_debug_message("global.posicao_atual")
 	}
 }
