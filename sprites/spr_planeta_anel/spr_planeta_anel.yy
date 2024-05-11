@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Etc",
-    "path":"folders/Sprites/Etc.yy",
+    "name":"planets",
+    "path":"folders/Sprites/Etc/planets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
