@@ -82,6 +82,7 @@
     {"name":"spr_fundo","order":2,"path":"sprites/spr_fundo/spr_fundo.yy",},
     {"name":"spr_fundo2","order":10,"path":"sprites/spr_fundo2/spr_fundo2.yy",},
     {"name":"spr_gameover","order":8,"path":"sprites/spr_gameover/spr_gameover.yy",},
+    {"name":"spr_inimigo_teste_1","order":4,"path":"sprites/spr_inimigo_teste_1/spr_inimigo_teste_1.yy",},
     {"name":"spr_inimigo02","order":2,"path":"sprites/spr_inimigo02/spr_inimigo02.yy",},
     {"name":"spr_logo","order":11,"path":"sprites/spr_logo/spr_logo.yy",},
     {"name":"spr_nebulosa1","order":15,"path":"sprites/spr_nebulosa1/spr_nebulosa1.yy",},
