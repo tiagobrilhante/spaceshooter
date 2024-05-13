@@ -101,6 +101,7 @@
     {"name":"spr_player_booster","order":4,"path":"sprites/spr_player_booster/spr_player_booster.yy",},
     {"name":"spr_player_rastro","order":5,"path":"sprites/spr_player_rastro/spr_player_rastro.yy",},
     {"name":"spr_player_teste","order":6,"path":"sprites/spr_player_teste/spr_player_teste.yy",},
+    {"name":"spr_player_teste2","order":10,"path":"sprites/spr_player_teste2/spr_player_teste2.yy",},
     {"name":"spr_power_up_shield","order":4,"path":"sprites/spr_power_up_shield/spr_power_up_shield.yy",},
     {"name":"spr_power_up_shot","order":1,"path":"sprites/spr_power_up_shot/spr_power_up_shot.yy",},
     {"name":"spr_power_up_vel_shot","order":2,"path":"sprites/spr_power_up_vel_shot/spr_power_up_vel_shot.yy",},

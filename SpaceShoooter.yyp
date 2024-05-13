@@ -136,6 +136,7 @@
     {"id":{"name":"spr_player_booster","path":"sprites/spr_player_booster/spr_player_booster.yy",},},
     {"id":{"name":"spr_player_rastro","path":"sprites/spr_player_rastro/spr_player_rastro.yy",},},
     {"id":{"name":"spr_player_teste","path":"sprites/spr_player_teste/spr_player_teste.yy",},},
+    {"id":{"name":"spr_player_teste2","path":"sprites/spr_player_teste2/spr_player_teste2.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_power_up_shield","path":"sprites/spr_power_up_shield/spr_power_up_shield.yy",},},
     {"id":{"name":"spr_power_up_shot","path":"sprites/spr_power_up_shot/spr_power_up_shot.yy",},},
