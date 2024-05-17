@@ -12,8 +12,8 @@
   "duration":0.412177,
   "name":"sfx_shieldDown",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Effects",
+    "path":"folders/Sounds/Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

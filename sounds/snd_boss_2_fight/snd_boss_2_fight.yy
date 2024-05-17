@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_boss_2_fight",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":216.94698,
+  "name":"snd_boss_2_fight",
+  "parent":{
+    "name":"2",
+    "path":"folders/Sounds/Musicas/level/2.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_boss_2_fight.mp3",
+  "type":0,
+  "volume":1.0,
+}

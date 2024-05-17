@@ -12,8 +12,8 @@
   "duration":1.466712,
   "name":"sfx_twoTone",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Effects",
+    "path":"folders/Sounds/Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

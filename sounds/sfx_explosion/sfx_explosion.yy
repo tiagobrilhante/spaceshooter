@@ -12,8 +12,8 @@
   "duration":0.523469,
   "name":"sfx_explosion",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Effects",
+    "path":"folders/Sounds/Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

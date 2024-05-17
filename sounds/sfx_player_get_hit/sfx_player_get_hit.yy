@@ -12,8 +12,8 @@
   "duration":0.435397,
   "name":"sfx_player_get_hit",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Effects",
+    "path":"folders/Sounds/Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

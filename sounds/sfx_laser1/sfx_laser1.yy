@@ -12,8 +12,8 @@
   "duration":1.217868,
   "name":"sfx_laser1",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Effects",
+    "path":"folders/Sounds/Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

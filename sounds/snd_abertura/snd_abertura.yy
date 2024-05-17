@@ -12,8 +12,8 @@
   "duration":130.77179,
   "name":"snd_abertura",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"menu",
+    "path":"folders/Sounds/Musicas/menu.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

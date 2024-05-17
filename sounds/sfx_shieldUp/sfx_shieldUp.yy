@@ -12,8 +12,8 @@
   "duration":0.293152,
   "name":"sfx_shieldUp",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Effects",
+    "path":"folders/Sounds/Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

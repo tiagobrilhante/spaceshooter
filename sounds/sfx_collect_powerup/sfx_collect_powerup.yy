@@ -12,8 +12,8 @@
   "duration":0.43102,
   "name":"sfx_collect_powerup",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Effects",
+    "path":"folders/Sounds/Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

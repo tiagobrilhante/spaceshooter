@@ -9,11 +9,11 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":238.8637,
+  "duration":208.11755,
   "name":"snd_boss_fight",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Musicas",
+    "path":"folders/Sounds/Musicas.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_boss_fight.mp3",
   "type":0,
-  "volume":0.26,
+  "volume":1.0,
 }

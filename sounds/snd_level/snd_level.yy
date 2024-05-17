@@ -12,8 +12,8 @@
   "duration":169.7698,
   "name":"snd_level",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Musicas",
+    "path":"folders/Sounds/Musicas.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

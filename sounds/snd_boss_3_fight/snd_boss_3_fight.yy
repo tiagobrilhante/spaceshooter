@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_boss_3_fight",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":145.47592,
+  "name":"snd_boss_3_fight",
+  "parent":{
+    "name":"3",
+    "path":"folders/Sounds/Musicas/level/3.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_boss_3_fight.mp3",
+  "type":0,
+  "volume":1.0,
+}
