@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_level1",
+  "%Name":"snd_level_option_1",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,16 +10,16 @@
   "compression":0,
   "conversionMode":0,
   "duration":228.912,
-  "name":"snd_level1",
+  "name":"snd_level_option_1",
   "parent":{
-    "name":"1",
-    "path":"folders/Sounds/Musicas/level/1.yy",
+    "name":"testes",
+    "path":"folders/Sounds/Musicas/level/testes.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_level1.mp3",
+  "soundFile":"snd_level_option_1.mp3",
   "type":0,
   "volume":1.0,
 }

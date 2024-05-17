@@ -19,7 +19,7 @@ max_level_tiro = 5;
 level_tiro = 1;
 
 
-max_vida = 3;
+max_vida = 30;
 vida = max_vida;
 
 max_escudos = 3

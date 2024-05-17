@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"sfx_collect_powerup.wav",
   "type":0,
-  "volume":0.51,
+  "volume":0.13,
 }

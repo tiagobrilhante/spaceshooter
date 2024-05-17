@@ -13,7 +13,16 @@ pontos = 0;
 level = 1;
 
 
-contador = 0;
+global.contador = 0;
+global.contador_running = true;
+global.momentum = 1; 
+
+// 1 - minions fase 1
+// 2 - bossbattle lvl 1
+// 3 - minions fase 2
+// 4 - bossbattle lvl 2
+// 5 - minions fase 3
+// 6 - bossbattle lvl 3
 
 proximo_level = 100;
 // proximo_level = 1;
@@ -54,17 +63,26 @@ ganha_pontos = function(_pontos)
 	
 }
 
+// nova mecânica de fase
+// por tempo
+
+
+// lvl 1 = 217
+// lvl 2 = 267
+// lvl 3 = 178
+
+
 // metodo gerar inimigos
 ///@method cria_inimigo()
 cria_inimigo = function()
 {
 	var _xx = irandom_range(64, 1888);
 	
-	// aumemnta o li,ite com base no lvl do jogo
-	var _yy = irandom_range(-96, -1504 - (level*800 ));
+	// aumemnta o limite com base no lvl do jogo
+	var _yy = irandom_range(-96, -1504 - (level + ceil(global.contador/4))*800 );
 
 	// cria o inimigo com base no lvl
-	var _chance = random_range(0, level);
+	var _chance = random_range(0, level + ceil(global.contador/4));
 
 	var _inimigo = obj_inimigo01;
 
