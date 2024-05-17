@@ -1,5 +1,3 @@
-texto = "PONTOS";
+texto = "Pontos"
 
-destino = rm_pontos;
-
-minha_posicao = 2;
+destino = rm_pontos

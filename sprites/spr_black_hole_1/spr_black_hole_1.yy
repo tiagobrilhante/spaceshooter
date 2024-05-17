@@ -54,8 +54,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"planets_galaxies",
-    "path":"folders/Sprites/Etc/planets_galaxies.yy",
+    "name":"black_hole",
+    "path":"folders/Sprites/Etc/planets_stars_galaxies/black_hole.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

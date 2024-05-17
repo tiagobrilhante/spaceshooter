@@ -1,5 +1,3 @@
-texto = "SOBRE";
+texto = "Sobre"
 
-destino = rm_sobre;
-
-minha_posicao = 3;
+destino = rm_sobre

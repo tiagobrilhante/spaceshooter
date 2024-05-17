@@ -1,2 +1,1 @@
-texto = "VOLTAR";
-destino = rm_inicio;
+text="Voltar"

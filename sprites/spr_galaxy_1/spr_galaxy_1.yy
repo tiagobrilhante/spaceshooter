@@ -54,8 +54,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"planets_galaxies",
-    "path":"folders/Sprites/Etc/planets_galaxies.yy",
+    "name":"galaxies",
+    "path":"folders/Sprites/Etc/planets_stars_galaxies/galaxies.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
