@@ -1,3 +1,5 @@
-texto = "Sair"
+texto = "Sair";
 
-destino = "sair"
+destino = "sair";
+
+minha_posicao = 4;

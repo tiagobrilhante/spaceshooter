@@ -1,1 +1,1 @@
-text="Voltar"
+texto = "Voltar";

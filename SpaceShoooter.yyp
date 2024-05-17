@@ -47,7 +47,7 @@
     {"$GMFolder":"","%Name":"galaxies","folderPath":"folders/Sprites/Etc/planets_stars_galaxies/galaxies.yy","name":"galaxies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"planets","folderPath":"folders/Sprites/Etc/planets_stars_galaxies/planets.yy","name":"planets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"stars","folderPath":"folders/Sprites/Etc/planets_stars_galaxies/stars.yy","name":"stars","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"powerup","folderPath":"folders/Sprites/Etc/powerup.yy","name":"powerup","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"powerup","folderPath":"folders/Sprites/Player/powerup.yy","name":"powerup","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Inimigos","folderPath":"folders/Sprites/Inimigos.yy","name":"Inimigos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},

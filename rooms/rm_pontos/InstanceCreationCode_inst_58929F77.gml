@@ -1,1 +1,2 @@
-text= "Voltar"
+texto = "Voltar"
+

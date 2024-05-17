@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"powerup",
-    "path":"folders/Sprites/Etc/powerup.yy",
+    "path":"folders/Sprites/Player/powerup.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
