@@ -19,10 +19,10 @@ max_level_tiro = 5;
 level_tiro = 1;
 
 
-max_vida = 30;
+max_vida = 4;
 vida = max_vida;
 
-max_escudos = 3
+max_escudos = 4
 escudos = max_escudos;
 
 meu_escudo = noone;
@@ -56,7 +56,7 @@ atirando = function()
 		alarm[0] = espera_tiro;
 		
 		// som do tiro
-		audio_play_sound(sfx_laser2 , 1 ,0);
+		audio_play_sound(sfx_player_tiro_2, 1 ,0);
 		
 		// crio tiro
 		if(level_tiro == 1)

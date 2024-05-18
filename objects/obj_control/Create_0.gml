@@ -9,9 +9,7 @@ randomize();
 alarm[0] = room_speed;
 
 pontos = 0;
-
 level = 1;
-
 
 global.contador = 0;
 global.contador_running = true;
@@ -24,7 +22,7 @@ global.momentum = 1;
 // 5 - minions fase 3
 // 6 - bossbattle lvl 3
 
-proximo_level = 100;
+// proximo_level = 100;
 // proximo_level = 1;
 
 // variavel de controle gameover
@@ -41,25 +39,26 @@ ganha_pontos = function(_pontos)
 {
 	pontos += _pontos * level;
 	
+	/*
+	Isso foi abandonado pq a intenção agora é scriptar cada Fase
+	POR TEMPO+
 	if(pontos > proximo_level) 
 	{
 		level++;
 		proximo_level *= 2;
-		/*
-		1 = 0
-		2 = 100
-		3 = 200
-		4 = 400
-		5 = 800
-		6 = 1600
-		7 = 3200
-		8 = 6400 
-		9 = 12800
-		10 = 25600
-		*/
 		
-		
+		// 1 = 0
+		// 2 = 100
+		// 3 = 200
+		// 4 = 400
+		// 5 = 800
+		// 6 = 1600
+		// 7 = 3200
+		// 8 = 6400 
+		// 9 = 12800
+		// 10 = 25600
 	}
+	*/
 	
 }
 
@@ -79,14 +78,16 @@ cria_inimigo = function()
 	var _xx = irandom_range(64, 1888);
 	
 	// aumemnta o limite com base no lvl do jogo
-	var _yy = irandom_range(-96, -1504 - (level + ceil(global.contador/4))*800 );
+	var _yy = irandom_range(-96, -1504 - (level + ceil(global.contador/6))*800 );
 
 	// cria o inimigo com base no lvl
-	var _chance = random_range(0, level + ceil(global.contador/4));
+	var _chance = random_range(0, level + ceil(global.contador/6));
+	
+	show_debug_message(string(_chance));
 
 	var _inimigo = obj_inimigo01;
 
-	if (_chance > 2)
+	if (_chance > 6)
 	{
 		_inimigo = obj_inimigo02;
 	}

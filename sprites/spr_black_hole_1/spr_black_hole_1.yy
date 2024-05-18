@@ -55,7 +55,7 @@
   "origin":4,
   "parent":{
     "name":"black_hole",
-    "path":"folders/Sprites/Etc/planets_stars_galaxies/black_hole.yy",
+    "path":"folders/Sprites/Etc/planets_stars_galaxies_asteroids/black_hole.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"stars",
-    "path":"folders/Sprites/Etc/planets_stars_galaxies/stars.yy",
+    "path":"folders/Sprites/Etc/planets_stars_galaxies_asteroids/stars.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

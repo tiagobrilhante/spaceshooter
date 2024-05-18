@@ -10,6 +10,7 @@
 
 draw_set_alpha(.5);
 draw_text(25, 20, "Pontos: " + string(pontos) + " - Level: " +string(level) + " --- Debug (para o boss): " +string(pontos - 25600) + " - Contador: " + string(global.contador));
+draw_text(25,600,"Contador testador: " + string(ceil(global.contador/6)));
 draw_set_alpha(1);
 
 

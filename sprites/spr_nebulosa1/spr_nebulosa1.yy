@@ -45,7 +45,7 @@
   "origin":0,
   "parent":{
     "name":"galaxies",
-    "path":"folders/Sprites/Etc/planets_stars_galaxies/galaxies.yy",
+    "path":"folders/Sprites/Etc/planets_stars_galaxies_asteroids/galaxies.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

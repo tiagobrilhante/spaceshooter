@@ -85,7 +85,7 @@
   "origin":4,
   "parent":{
     "name":"planets",
-    "path":"folders/Sprites/Etc/planets_stars_galaxies/planets.yy",
+    "path":"folders/Sprites/Etc/planets_stars_galaxies_asteroids/planets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
