@@ -22,11 +22,6 @@ function ganhando_pontos(_pontos)
 function destroi_seq()
 {
 	
-	
-	
-	show_debug_message("global.momentum")
-	show_debug_message(string(global.momentum))
-	show_debug_message("global.momentum")
 	//layer_sequence_destroy("Sequences");
 	var _elementos = layer_get_all_elements("Boss_entrada");
 	layer_sequence_destroy(_elementos[0]);

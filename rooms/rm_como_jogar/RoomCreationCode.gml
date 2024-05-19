@@ -1,0 +1,1 @@
+global.btn_list = ds_list_create();

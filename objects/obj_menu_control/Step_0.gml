@@ -43,7 +43,8 @@ if(_press && sala_atual == "rm_inicio")
 		var _transicao = instance_create_layer(0,0, "Transicoes", obj_transicao);
 		_transicao.destino = rm_level1;
 		
-	} else if(global.posicao_atual == 2)
+	} 
+	else if(global.posicao_atual == 2)
 	{
 		var _transicao = instance_create_layer(0,0, "Transicoes", obj_transicao);
 		_transicao.destino = rm_pontos;
@@ -54,6 +55,11 @@ if(_press && sala_atual == "rm_inicio")
 		_transicao.destino = rm_sobre;
 	}
 	else if(global.posicao_atual == 4)
+	{
+		var _transicao = instance_create_layer(0,0, "Transicoes", obj_transicao);
+		_transicao.destino = rm_como_jogar;
+	}
+	else if(global.posicao_atual == 5)
 	{
 		var _transicao = instance_create_layer(0,0, "Transicoes", obj_transicao);
 		game_end();
@@ -72,7 +78,6 @@ if(_back && sala_atual != "rm_inicio")
 if(_down && sala_atual == "rm_inicio")
 {
 	global.selecao_por_mouse = false;
-	show_debug_message("cim: " + string(controla_index_menu));
 	if(controla_index_menu > 0)
 	{
 		
@@ -96,14 +101,11 @@ if(_down && sala_atual == "rm_inicio")
 if(_up  && sala_atual == "rm_inicio")
 {
 	global.selecao_por_mouse = false;
-	show_debug_message("cim: " + string(controla_index_menu));
 	if(controla_index_menu > 0)
 	{
 		
-		
 		// posicaoatal = 2
-		// tenho 3 itens
-		
+		// tenho 4 itens
 		
 		if (global.posicao_atual <= 1)
 		{

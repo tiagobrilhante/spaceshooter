@@ -2,4 +2,4 @@ texto = "Sair";
 
 destino = "sair";
 
-minha_posicao = 4;
+minha_posicao = 5;
