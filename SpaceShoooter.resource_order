@@ -61,6 +61,7 @@
   "ResourceOrderSettings":[
     {"name":"fnt_como_jogar_1","order":3,"path":"fonts/fnt_como_jogar_1/fnt_como_jogar_1.yy",},
     {"name":"fnt_como_jogar_2","order":4,"path":"fonts/fnt_como_jogar_2/fnt_como_jogar_2.yy",},
+    {"name":"fnt_gui","order":5,"path":"fonts/fnt_gui/fnt_gui.yy",},
     {"name":"fnt_paused","order":2,"path":"fonts/fnt_paused/fnt_paused.yy",},
     {"name":"fnt_pontos","order":1,"path":"fonts/fnt_pontos/fnt_pontos.yy",},
     {"name":"obj_boss_minion","order":1,"path":"objects/obj_boss_minion/obj_boss_minion.yy",},
@@ -157,6 +158,7 @@
     {"name":"spr_gamepad_btn","order":8,"path":"sprites/spr_gamepad_btn/spr_gamepad_btn.yy",},
     {"name":"spr_gamepad_dpad","order":7,"path":"sprites/spr_gamepad_dpad/spr_gamepad_dpad.yy",},
     {"name":"spr_gamepad","order":6,"path":"sprites/spr_gamepad/spr_gamepad.yy",},
+    {"name":"spr_gui_sapce","order":6,"path":"sprites/spr_gui_sapce/spr_gui_sapce.yy",},
     {"name":"spr_inimigo_teste_1","order":4,"path":"sprites/spr_inimigo_teste_1/spr_inimigo_teste_1.yy",},
     {"name":"spr_inimigo02","order":2,"path":"sprites/spr_inimigo02/spr_inimigo02.yy",},
     {"name":"spr_keyboard_esc","order":9,"path":"sprites/spr_keyboard_esc/spr_keyboard_esc.yy",},

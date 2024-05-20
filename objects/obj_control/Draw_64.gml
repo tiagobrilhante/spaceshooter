@@ -7,12 +7,19 @@
 
 // pontuação paa chegar ao lvl 10 = 25600
 
+draw_set_color(c_white);
+draw_set_font(fnt_gui);
 
-draw_set_alpha(.5);
-draw_text(25, 20, "Pontos: " + string(pontos) + " - Level: " +string(level) + " --- Debug (para o boss): " +string(pontos - 25600) + " - Contador: " + string(global.contador));
-draw_text(25,600,"Contador testador: " + string(ceil(global.contador/6)));
+draw_set_alpha(1);
+draw_text(900, 647, "Pontos: " + string(pontos));
+draw_text(900, 665, "Level: " +string(level));
+draw_text(900, 684, "Contador: " + string(global.contador));
+draw_text(1100,647,"Contador testador: " + string(ceil(global.contador/6)));
 draw_set_alpha(1);
 
+
+draw_set_color(c_white);
+draw_set_font(-1);
 
 if(global.paused)
 {

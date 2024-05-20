@@ -48,7 +48,7 @@ if(!global.paused)
 
 	// limitando a saida do player
 	x = clamp(x, 64, 1856);
-	y = clamp(y, 64, 1024);
+	y = clamp(y, 64, 901);
 
 	atirando();
 	image_speed =1;
