@@ -13,7 +13,7 @@ level = 1;
 
 global.contador = 0;
 global.contador_running = true;
-global.momentum = 1; 
+global.momentum = 0; 
 
 // 1 - minions fase 1
 // 2 - bossbattle lvl 1
@@ -28,6 +28,7 @@ global.momentum = 1;
 // variavel de controle gameover
 
 gameover_seq = noone;
+global.seq_lvl_start = true
 
 criar_boss = true;
 

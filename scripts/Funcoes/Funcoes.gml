@@ -34,6 +34,18 @@ function destroi_seq()
 	}
 }
 
+
+// destruindo sequencia
+function destroi_seq_lvl()
+{
+	
+	var _elementos = layer_get_all_elements("Level_Inicio");
+	layer_sequence_destroy(_elementos[0]);
+	global.momentum = 1;
+	
+}
+
+
 // seq player
 function cria_seq()
 {
