@@ -86,7 +86,7 @@ if (global.momentum >= 1)
 	}
 	else
 	{
-		repeat(nv_vel_ship)
+		repeat(10)
 		{
 
 			draw_sprite_ext(spr_tile_vel_ship, 0 , 724 + _espaco*_multiplicador , 663, 0.8, 0.8, 0 , c_white, 1);

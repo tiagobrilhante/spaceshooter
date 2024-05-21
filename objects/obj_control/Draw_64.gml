@@ -2,12 +2,9 @@
 // Você pode escrever seu código neste editor
 
 // desenhando os pontos
-
 // debug ... quanto falta para o boss
-
 // pontuação paa chegar ao lvl 10 = 25600
 
-show_debug_message(string(global.momentum))
 
 if(global.seq_lvl_start == false)
 {
@@ -16,6 +13,7 @@ if(global.seq_lvl_start == false)
 		draw_sprite_ext(spr_gui_sapce, 0 , 0 , 630, 9.145, .655, 0 , c_gray, 1);
 		draw_sprite_ext(spr_gui_sapce, 0 , 10 , 640, 1.09, .513, 0 , #509050, 1);
 		draw_sprite_ext(spr_gui_sapce, 0 , 175 , 640, 2.7, .513, 0 , #191517, 1);
+		draw_sprite_ext(spr_gui_sapce, 0 , 575 , 640, 2.18, .513, 0 , #191517, 1);
 			
 			// 191517
 			

@@ -10,6 +10,7 @@ alarm[0] = room_speed;
 
 pontos = 0;
 level = 1;
+player_exist = false;
 
 global.contador = 0;
 global.contador_running = true;
@@ -33,6 +34,11 @@ global.seq_lvl_start = true
 criar_boss = true;
 
 level_completo = false;
+
+
+
+
+
 
 // metodo de pontos
 ///@method ganha_pontos(pontos)

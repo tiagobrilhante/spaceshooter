@@ -17,9 +17,7 @@ if (global.seq_lvl_start == false)
 		global.contador += ceil((1/room_speed))/room_speed;
 	}
 
-
-
-	if(!instance_exists(obj_player) && !gameover_seq && !level_completo)
+	if(!instance_exists(obj_player) && player_exist == true && !gameover_seq && !level_completo)
 	{
 		gameover_seq = layer_sequence_create("Sequences", room_width/2, room_height/2, sq_gameover);
 		audio_play_sound(sfx_lose, 1, false);
@@ -35,17 +33,32 @@ if (global.seq_lvl_start == false)
 	var _layer_id_extra2 = layer_get_id("Background_extra2");
 	var _layer_id_extra3 = layer_get_id("Background_extra3");
 
-	if (global.paused)
+	if (global.paused || global.momentum == 0)
 	{
-		// Define a velocidade vertical do layer para 0
-		layer_vspeed(_layer_id, 0);
-		layer_vspeed(_layer_id_extra, 0);
-		layer_vspeed(_layer_id_extra2, 0);
-		layer_vspeed(_layer_id_extra3, 0);
-		layer_sequence_pause(global.sequence_instance_id);
+		if (global.paused) 
+		{
+			// Define a velocidade vertical do layer para 0
+			layer_vspeed(_layer_id, 0);
+			layer_vspeed(_layer_id_extra, 0);
+			layer_vspeed(_layer_id_extra2, 0);
+			layer_vspeed(_layer_id_extra3, 0);
+			layer_sequence_pause(global.sequence_instance_id);
+		}
+		else
+		{
+			layer_vspeed(_layer_id,lerp(0, 0.4, 0.2));
+			layer_vspeed(_layer_id_extra, lerp(0, 0.8, 0.2));
+			layer_vspeed(_layer_id_extra2, lerp(0, 1, 0.2));
+			layer_vspeed(_layer_id_extra3, lerp(0, 2, 0.2));
+			layer_sequence_pause(global.sequence_instance_id);
+		}
 	}
 	else
 	{
+		if (!player_exist) {
+			instance_create_layer(959, 834, "Player", obj_player);
+			player_exist = true;
+		}
 		// retorna para a velocidade normal
 		layer_vspeed(_layer_id, 0.4);
 		layer_vspeed(_layer_id_extra, 0.8);

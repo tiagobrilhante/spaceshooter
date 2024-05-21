@@ -50,6 +50,19 @@ if(!global.paused)
 	x = clamp(x, 64, 1856);
 	y = clamp(y, 64, 901);
 
+		if(_left)
+		{
+			sprite_index = spr_player_left;
+		}
+		else if (_right)
+		{
+			sprite_index = spr_player_right;
+		}
+		else
+		{
+			sprite_index = spr_player_teste2;
+		}
+
 	atirando();
 	image_speed =1;
 }
