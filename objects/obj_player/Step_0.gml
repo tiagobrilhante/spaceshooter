@@ -18,6 +18,21 @@ x += _right * velocidade;
 */
 
 
+if (baloon && contador_baloon <= 180)
+{
+	baloon = true
+	contador_baloon++
+}
+else
+{
+	baloon = false;
+	contador_baloon = 0;
+}
+
+
+show_debug_message(string(contador_baloon))
+
+
 // Adicionando suporte a gamepad
 // Assumindo que estamos usando o gamepad 0 (o primeiro gamepad conectado)
 

@@ -1,6 +1,9 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-instance_destroy();
+draw_self();
 
-other.perde_vida();
+if (baloon && baloon_tipo == "hit")
+{
+	create_baloon("hit");
+}

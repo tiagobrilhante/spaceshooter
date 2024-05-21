@@ -8,6 +8,7 @@ var _altura_gui = display_get_gui_height();
 var _espaco = 30;
 var _multiplicador = 0;
 
+
 if (global.momentum >= 1)
 
 {
@@ -31,7 +32,7 @@ if (global.momentum >= 1)
 	_multiplicador = 0;
 	 _espaco = 15;
  
-	 draw_set_color(c_white);
+	draw_set_color(c_white);
 	draw_set_font(fnt_gui);
 	// nivel do tiro (max 5)
 	draw_text(200, 655, "Nível Tiro: ");
@@ -86,7 +87,7 @@ if (global.momentum >= 1)
 	}
 	else
 	{
-		repeat(10)
+		repeat(nv_vel_ship)
 		{
 
 			draw_sprite_ext(spr_tile_vel_ship, 0 , 724 + _espaco*_multiplicador , 663, 0.8, 0.8, 0 , c_white, 1);

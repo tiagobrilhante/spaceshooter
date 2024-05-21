@@ -61,6 +61,7 @@
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"fnt_baloon","order":6,"path":"fonts/fnt_baloon/fnt_baloon.yy",},
     {"name":"fnt_como_jogar_1","order":3,"path":"fonts/fnt_como_jogar_1/fnt_como_jogar_1.yy",},
     {"name":"fnt_como_jogar_2","order":4,"path":"fonts/fnt_como_jogar_2/fnt_como_jogar_2.yy",},
     {"name":"fnt_gui","order":5,"path":"fonts/fnt_gui/fnt_gui.yy",},
@@ -118,7 +119,6 @@
     {"name":"snd_historia","order":1,"path":"sounds/snd_historia/snd_historia.yy",},
     {"name":"snd_level_1","order":2,"path":"sounds/snd_level_1/snd_level_1.yy",},
     {"name":"snd_level","order":3,"path":"sounds/snd_level/snd_level.yy",},
-    {"name":"spr_baloon","order":1,"path":"sprites/spr_baloon/spr_baloon.yy",},
     {"name":"spr_boss_1_attack_2","order":1,"path":"sprites/spr_boss_1_attack_2/spr_boss_1_attack_2.yy",},
     {"name":"spr_boss_1_attack_3","order":2,"path":"sprites/spr_boss_1_attack_3/spr_boss_1_attack_3.yy",},
     {"name":"spr_boss_1_attack_4","order":3,"path":"sprites/spr_boss_1_attack_4/spr_boss_1_attack_4.yy",},
@@ -177,6 +177,7 @@
     {"name":"spr_planeta_anel","order":4,"path":"sprites/spr_planeta_anel/spr_planeta_anel.yy",},
     {"name":"spr_planeta_terra","order":5,"path":"sprites/spr_planeta_terra/spr_planeta_terra.yy",},
     {"name":"spr_player_2","order":9,"path":"sprites/spr_player_2/spr_player_2.yy",},
+    {"name":"spr_player_baloon","order":2,"path":"sprites/spr_player_baloon/spr_player_baloon.yy",},
     {"name":"spr_player_booster_2","order":8,"path":"sprites/spr_player_booster_2/spr_player_booster_2.yy",},
     {"name":"spr_player_booster","order":5,"path":"sprites/spr_player_booster/spr_player_booster.yy",},
     {"name":"spr_player_left","order":11,"path":"sprites/spr_player_left/spr_player_left.yy",},

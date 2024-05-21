@@ -39,6 +39,12 @@ pontos_vel_nave_pup = 30;
 tx_acelera_nave = .5;
 tx_acelera_tiro = .9;
 
+// baloon
+contador_baloon = 0;
+baloon = false;
+baloon_tipo = "";
+msg_escudo = true;
+
 
 atirando = function()
 {
@@ -192,6 +198,9 @@ perde_vida = function()
 	{
 		if(vida >0)
 		{
+		
+			baloon_tipo = "hit"
+			baloon = true;
 			audio_play_sound(sfx_player_get_hit, 2, false);
 			vida--;
 			screenshake(5);
@@ -227,7 +236,12 @@ cria_escudo = function()
 		_escudo.alvo = id;
 	
 		meu_escudo = _escudo;
+		if (escudos > 0)
+		{
+			msg_escudo = true;
+		}
 	
 		escudos--;
 	}
 }
+

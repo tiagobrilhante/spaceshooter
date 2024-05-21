@@ -90,8 +90,6 @@ cria_inimigo = function()
 	// cria o inimigo com base no lvl
 	var _chance = random_range(0, level + ceil(global.contador/6));
 	
-	show_debug_message(string(_chance));
-
 	var _inimigo = obj_inimigo01;
 
 	if (_chance > 6)

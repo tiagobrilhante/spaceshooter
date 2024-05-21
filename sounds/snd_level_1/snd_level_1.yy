@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_level_1.mp3",
   "type":0,
-  "volume":0.19,
+  "volume":0.13,
 }

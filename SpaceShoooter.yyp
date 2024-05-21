@@ -81,6 +81,7 @@
   },
   "name":"SpaceShoooter",
   "resources":[
+    {"id":{"name":"fnt_baloon","path":"fonts/fnt_baloon/fnt_baloon.yy",},},
     {"id":{"name":"fnt_botoes","path":"fonts/fnt_botoes/fnt_botoes.yy",},},
     {"id":{"name":"fnt_como_jogar_1","path":"fonts/fnt_como_jogar_1/fnt_como_jogar_1.yy",},},
     {"id":{"name":"fnt_como_jogar_2","path":"fonts/fnt_como_jogar_2/fnt_como_jogar_2.yy",},},
@@ -159,7 +160,6 @@
     {"id":{"name":"snd_level","path":"sounds/snd_level/snd_level.yy",},},
     {"id":{"name":"snd_level2","path":"sounds/snd_level2/snd_level2.yy",},},
     {"id":{"name":"spr_asteroid_1","path":"sprites/spr_asteroid_1/spr_asteroid_1.yy",},},
-    {"id":{"name":"spr_baloon","path":"sprites/spr_baloon/spr_baloon.yy",},},
     {"id":{"name":"spr_bg_teste_2","path":"sprites/spr_bg_teste_2/spr_bg_teste_2.yy",},},
     {"id":{"name":"spr_black_hole_1","path":"sprites/spr_black_hole_1/spr_black_hole_1.yy",},},
     {"id":{"name":"spr_boss_1_attack_1","path":"sprites/spr_boss_1_attack_1/spr_boss_1_attack_1.yy",},},
@@ -234,6 +234,7 @@
     {"id":{"name":"spr_planeta_anel","path":"sprites/spr_planeta_anel/spr_planeta_anel.yy",},},
     {"id":{"name":"spr_planeta_terra","path":"sprites/spr_planeta_terra/spr_planeta_terra.yy",},},
     {"id":{"name":"spr_player_2","path":"sprites/spr_player_2/spr_player_2.yy",},},
+    {"id":{"name":"spr_player_baloon","path":"sprites/spr_player_baloon/spr_player_baloon.yy",},},
     {"id":{"name":"spr_player_booster_2","path":"sprites/spr_player_booster_2/spr_player_booster_2.yy",},},
     {"id":{"name":"spr_player_booster","path":"sprites/spr_player_booster/spr_player_booster.yy",},},
     {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},},
