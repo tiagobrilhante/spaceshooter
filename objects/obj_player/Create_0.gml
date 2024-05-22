@@ -45,11 +45,14 @@ tx_acelera_nave = .5;
 tx_acelera_tiro = .9;
 
 // baloon
-contador_baloon = 0;
-baloon = false;
-baloon_tipo = "";
+global.baloon_player = false;
+global.baloon_tipo = "";
 msg_escudo = true;
 
+// vulnerabilidade
+vulneravel = true;
+tempo_invulneravel = 150;
+timer_invulneravel  = 0;
 
 atirando = function()
 {
@@ -197,18 +200,25 @@ level_up = function(_tipo)
 ///@method perde_vida();
 perde_vida = function()
 {
+	
 	// so perde vida se nõa tem ecudo
 	
 	if(!meu_escudo)
 	{
+		
 		if(vida >0)
 		{
-		
-			baloon_tipo = "hit"
-			baloon = true;
-			audio_play_sound(sfx_player_get_hit, 2, false);
-			vida--;
-			screenshake(5);
+			if (vulneravel)
+			{
+			
+				global.baloon_tipo = "hit"
+				global.baloon_player = true;
+				instance_create_layer(x + 40, y - 50, "Player", obj_player_baloon)
+				audio_play_sound(sfx_player_get_hit, 2, false);
+				vida--;
+				screenshake(5);
+			}
+			
 		}
 		else
 		{

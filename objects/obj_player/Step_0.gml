@@ -18,17 +18,6 @@ x += _right * velocidade;
 */
 
 
-if (baloon && contador_baloon <= 180)
-{
-	baloon = true
-	contador_baloon++
-}
-else
-{
-	baloon = false;
-	contador_baloon = 0;
-}
-
 // Adicionando suporte a gamepad
 // Assumindo que estamos usando o gamepad 0 (o primeiro gamepad conectado)
 
@@ -61,13 +50,25 @@ if(!global.paused)
 	x = clamp(x, 64, 1856);
 	y = clamp(y, 64, 901);
 
-		if(_left)
+		if(_left && vulneravel)
 		{
 			sprite_index = spr_player_left;
 		}
-		else if (_right)
+		else if(_left && !vulneravel)
+		{
+			sprite_index = spr_player_left_hit;
+		}
+		else if (_right && vulneravel)
 		{
 			sprite_index = spr_player_right;
+		}
+		else if (_right && !vulneravel)
+		{
+			sprite_index = spr_player_right_hit;
+		}
+		else if ((!_right && !_left) && !vulneravel)
+		{
+			sprite_index = spr_player_hit_1;
 		}
 		else
 		{
@@ -81,3 +82,16 @@ else
 {
 	image_speed=0;
 }
+
+
+if (!vulneravel)
+{
+	timer_invulneravel++;
+	
+}
+
+if (timer_invulneravel >= tempo_invulneravel)
+	{
+		vulneravel = true;
+		timer_invulneravel = 0;
+	}
