@@ -6,7 +6,7 @@ var _up, _down, _press, _back ;
 _up = keyboard_check_pressed(ord("W"));
 _down = keyboard_check_pressed(ord("S"));
 _press = keyboard_check_pressed(vk_enter);
-_back = keyboard_check_pressed(vk_enter);
+_back = keyboard_check_pressed(vk_escape);
 
 	
 
@@ -37,6 +37,7 @@ if (gamepad_is_connected(gamepad_index)) {
 if(_press && sala_atual == "rm_inicio")
 {
 
+	audio_play_sound(sfx_btn_menu_out, 0, false);
 	// tenho que melhorar isso
 	if(global.posicao_atual == 1)
 	{
@@ -70,6 +71,7 @@ if(_press && sala_atual == "rm_inicio")
 if(_back && sala_atual != "rm_inicio")
 {	
 	
+	audio_play_sound(sfx_btn_menu_out, 0, false);
 	var _transicao = instance_create_layer(0,0, "Transicoes", obj_transicao);
 	_transicao.destino = rm_inicio;
 }

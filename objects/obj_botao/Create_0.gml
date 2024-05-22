@@ -9,5 +9,7 @@ selected = c_yellow;
 
 minha_posicao = 0;
 
+keyboard_select = false;
+
 
 ds_list_add(global.btn_list, id);
