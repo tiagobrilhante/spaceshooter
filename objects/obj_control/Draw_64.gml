@@ -8,8 +8,8 @@
 
 if(global.seq_lvl_start == false)
 {
-	// if(global.momentum >= 1 && gameover_seq == noone)
-	if(global.momentum >= 1)
+	if(global.momentum >= 1 && gameover_seq == noone)
+	// if(global.momentum >= 1) // para debug
 		{
 		draw_sprite_ext(spr_gui_sapce, 0 , 0 , 630, 9.145, .655, 0 , c_gray, 1);
 		draw_sprite_ext(spr_gui_sapce, 0 , 10 , 640, 1.09, .513, 0 , #509050, 1);
