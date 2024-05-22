@@ -56,7 +56,7 @@ if (global.seq_lvl_start == false)
 	else
 	{
 		if (!player_exist) {
-			instance_create_layer(959, 834, "Player", obj_player);
+			instance_create_layer(961, 810, "Player", obj_player);
 			player_exist = true;
 		}
 		// retorna para a velocidade normal
