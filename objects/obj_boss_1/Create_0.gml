@@ -148,10 +148,10 @@ estado_04 = function()
 	
 	if (criar_minions)
 	{
-		var _minion = instance_create_layer(128,672, "Inimigos", obj_boss_minion);
+		var _minion = instance_create_layer(128,500, "Inimigos", obj_boss_minion);
 		_minion.image_angle = 90;
 	
-		var _minion = instance_create_layer(1760,672, "Inimigos", obj_boss_minion);
+		var _minion = instance_create_layer(1760,500, "Inimigos", obj_boss_minion);
 		_minion.image_angle = 270;
 		
 		// paro de criar
