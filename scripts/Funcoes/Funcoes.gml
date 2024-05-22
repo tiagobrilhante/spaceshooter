@@ -42,6 +42,7 @@ function destroi_seq_lvl()
 	var _elementos = layer_get_all_elements("Level_Inicio");
 	layer_sequence_destroy(_elementos[0]);
 	global.momentum = 1;
+	audio_play_sound(snd_level_1, 0, false);
 	
 }
 
@@ -123,7 +124,7 @@ function create_baloon(_tipo)
 				}
 				else
 				{
-					var _index_msg = choose(4,4);
+					var _index_msg = choose(2,2);
 				
 				if (_index_msg == 1)
 				{

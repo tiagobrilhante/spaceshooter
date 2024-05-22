@@ -7,12 +7,16 @@ if (global.seq_lvl_start == false)
 {
 	if(!instance_exists(obj_inimigo01))
 	{
-		var _repetir = 	10 + ceil(global.contador/4);
+		var _repetir = 	10 + (10 * ceil(global.contador/12));
+		
+		show_debug_message(_repetir);
 	
 		// no lvl 10 cria o boss (seq entrada boss)
 	
-		//  217
-		if(global.contador < 217 && global.momentum == 1)
+		//  217 212 a musica termina
+		
+		
+		if(global.contador < 180 && global.momentum == 1)
 		{
 			
 			repeat(_repetir)
@@ -20,7 +24,7 @@ if (global.seq_lvl_start == false)
 				cria_inimigo();
 			}
 		}
-		else if (global.contador >= 217 && global.contador < 267)
+		else if (global.contador >= 212 && global.contador < 1000 && global.momentum == 1)
 		{
 		
 			global.momentum = 2
@@ -34,6 +38,7 @@ if (global.seq_lvl_start == false)
 			}
 		}
 	
-	}
+	} 
+
 }
-alarm[0] = room_speed * 5;
+alarm[0] = room_speed * 2;

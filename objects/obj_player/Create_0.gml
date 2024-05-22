@@ -5,10 +5,14 @@
 // espera_tiro - 10%	- Limite = 20	// 45%
 // Level tiro - 1		- Limite = 5	// 10%
 
+// 5- 10
 velocidade = 5;
 vel_max = 10;
 
+// room_speed
 espera_tiro = room_speed;
+
+// 15 - 10
 base_delay_tiro = 15;
 
 // facilita indicadores de GUI
@@ -16,6 +20,7 @@ nv_vel_tiro =1;
 nv_vel_ship = 1;
 // fim variável de referências
 max_level_tiro = 5;
+// base 1 - 5
 level_tiro = 1;
 
 

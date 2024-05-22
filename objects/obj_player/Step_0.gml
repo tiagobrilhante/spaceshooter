@@ -29,10 +29,6 @@ else
 	contador_baloon = 0;
 }
 
-
-show_debug_message(string(contador_baloon))
-
-
 // Adicionando suporte a gamepad
 // Assumindo que estamos usando o gamepad 0 (o primeiro gamepad conectado)
 

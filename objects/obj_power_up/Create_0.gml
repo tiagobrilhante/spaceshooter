@@ -53,8 +53,8 @@ else if(chance >= 75 && chance < 90)
 	cor = c_white
 	if(_qual_sera == 1)
 	{	
-	sprite_index = spr_power_up_shield;
-	tipo = "shield"
+		sprite_index = spr_power_up_shield;
+		tipo = "shield"
 	} 
 	else
 	{
@@ -78,10 +78,10 @@ else
 	} 
 	else
 	{
-	// velocidade de tiro
-	cor = c_white;	
-	sprite_index = spr_power_up_vel_shot	
-	tipo = "vel_tiro"
+		// velocidade de tiro
+		cor = c_white;	
+		sprite_index = spr_power_up_vel_shot	
+		tipo = "vel_tiro"
 	}
 	
 }

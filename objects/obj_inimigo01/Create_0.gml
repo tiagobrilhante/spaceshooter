@@ -34,3 +34,13 @@ dropa_item = function(_chance)
 		instance_create_layer(x, y, "Tiros", obj_power_up);
 	}
 }
+
+autokill = function ()
+{
+	if (y < room_height) 
+	{
+	// Destroi a instância sem acionar o evento Destroy
+	instance_destroy(id, false);
+	}
+	
+}

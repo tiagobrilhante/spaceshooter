@@ -8,6 +8,7 @@
 
 if(global.seq_lvl_start == false)
 {
+	// if(global.momentum >= 1 && gameover_seq == noone)
 	if(global.momentum >= 1)
 		{
 		draw_sprite_ext(spr_gui_sapce, 0 , 0 , 630, 9.145, .655, 0 , c_gray, 1);
@@ -25,6 +26,8 @@ if(global.seq_lvl_start == false)
 		draw_text(900, 665, "Level: " +string(level));
 		draw_text(900, 684, "Contador: " + string(global.contador));
 		draw_text(1100,647,"Contador testador: " + string(ceil(global.contador/6)));
+		draw_text(1100,665,"Conta Inimigos: " + string(instance_number(obj_inimigo01)));
+		draw_text(1100,684,"Momentum: " + string(global.momentum));
 		draw_set_alpha(1);
 
 

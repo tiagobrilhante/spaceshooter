@@ -37,9 +37,6 @@ level_completo = false;
 
 
 
-
-
-
 // metodo de pontos
 ///@method ganha_pontos(pontos)
 ganha_pontos = function(_pontos)
@@ -85,7 +82,7 @@ cria_inimigo = function()
 	var _xx = irandom_range(64, 1888);
 	
 	// aumemnta o limite com base no lvl do jogo
-	var _yy = irandom_range(-96, -1504 - (level + ceil(global.contador/6))*800 );
+	var _yy = irandom_range(-96, -1504 - (level + ceil(global.contador/13))*800 );
 
 	// cria o inimigo com base no lvl
 	var _chance = random_range(0, level + ceil(global.contador/6));
@@ -98,4 +95,15 @@ cria_inimigo = function()
 	}
 
 	instance_create_layer(_xx, _yy, "Inimigos", _inimigo);
+}
+
+// metodo destruir inimigos
+///@method destroi_inimigos()
+destroi_inimigos = function ()
+{
+	with (obj_inimigo01) 
+	{
+	obj_inimigo01.autokill();
+	}
+	
 }

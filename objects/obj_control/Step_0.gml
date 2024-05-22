@@ -12,7 +12,7 @@ if(global.seq_lvl_start)
 
 if (global.seq_lvl_start == false)
 {
-	if (global.contador_running)
+	if (global.contador_running && !global.paused)
 	{
 		global.contador += ceil((1/room_speed))/room_speed;
 	}
@@ -67,4 +67,13 @@ if (global.seq_lvl_start == false)
 		layer_sequence_play(global.sequence_instance_id);
 	}
 
+}
+
+var _qtd_exec_di = 0
+
+if (global.contador >= 206 && global.contador < 210)
+{
+	_qtd_exec_di++
+	destroi_inimigos();
+	show_debug_message("contagem exec di = " + string(_qtd_exec_di))
 }

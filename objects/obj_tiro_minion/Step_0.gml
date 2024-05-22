@@ -4,8 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
-if(instance_exists(obj_boss))
+if(instance_exists(obj_boss_1))
 {
-	direction = point_direction(x, y, obj_boss.x, obj_boss.y);
+	direction = point_direction(x, y, obj_boss_1.x, obj_boss_1.y);
 	image_angle = direction + 90;
 }

@@ -1,12 +1,13 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+/*
 if(estado_atual != "estado 4")
 {
 	// usa a sprite dele mesmo
 	sprite_index = spr_boss_1_attack_1;
 }
-
+*/
 // alterna os estados
 troca_estado()
 

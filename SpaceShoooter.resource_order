@@ -162,6 +162,8 @@
     {"name":"spr_gamepad","order":6,"path":"sprites/spr_gamepad/spr_gamepad.yy",},
     {"name":"spr_gui_sapce","order":6,"path":"sprites/spr_gui_sapce/spr_gui_sapce.yy",},
     {"name":"spr_inimigo_teste_1","order":4,"path":"sprites/spr_inimigo_teste_1/spr_inimigo_teste_1.yy",},
+    {"name":"spr_inimigo_teste_2","order":5,"path":"sprites/spr_inimigo_teste_2/spr_inimigo_teste_2.yy",},
+    {"name":"spr_inimigo02_1","order":6,"path":"sprites/spr_inimigo02_1/spr_inimigo02_1.yy",},
     {"name":"spr_inimigo02","order":2,"path":"sprites/spr_inimigo02/spr_inimigo02.yy",},
     {"name":"spr_keyboard_esc","order":9,"path":"sprites/spr_keyboard_esc/spr_keyboard_esc.yy",},
     {"name":"spr_keyboard_key_d","order":3,"path":"sprites/spr_keyboard_key_d/spr_keyboard_key_d.yy",},
