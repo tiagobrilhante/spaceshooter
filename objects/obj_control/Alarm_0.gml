@@ -15,7 +15,7 @@ if (global.seq_lvl_start == false)
 	
 		//  217 212 a musica termina
 		
-		
+		// base 180
 		if(global.contador < 180 && global.momentum == 1)
 		{
 			
@@ -26,6 +26,7 @@ if (global.seq_lvl_start == false)
 		}
 		else if (global.contador >= 212 && global.contador < 1000 && global.momentum == 1)
 		{
+			// base 212
 		
 			global.momentum = 2
 			if(criar_boss)

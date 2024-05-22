@@ -6,7 +6,14 @@ event_inherited();
 
 // muda a direcao
 
-if(x > xstart+50 || x < xstart-50)
-{ 
-	hspeed	*= -1;
+if (global.paused)
+{
+	hspeed = 0;
+}
+else
+{
+	if(x > xstart+50 || x < xstart-50)
+	{ 
+		hspeed	*= -1;
+	}
 }

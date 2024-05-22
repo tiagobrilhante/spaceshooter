@@ -16,6 +16,9 @@ global.contador = 0;
 global.contador_running = true;
 global.momentum = 0; 
 
+//pause_music
+pause_music = false;
+
 // 0 - abertura
 // 1 - minions fase 1
 // 2 - bossbattle lvl 1

@@ -12,6 +12,46 @@ if(global.seq_lvl_start)
 
 if (global.seq_lvl_start == false)
 {
+	
+	
+	if (global.paused) 
+	{
+		show_debug_message("momentum: " + string(global.momentum))
+		// Pausar a música principal e tocar a música de pausa
+	    if (!audio_is_playing(snd_pause_music)) {
+			
+	        if(global.momentum == 1)
+			{
+				audio_pause_sound(snd_level_1);
+			}
+			else if (global.momentum == 2)
+			{
+				audio_pause_sound(snd_boss_fight);
+			}
+			
+	        audio_play_sound(snd_pause_music, 1, true);
+	    }
+	} 
+	else 
+	{
+	    // Retomar a música principal e parar a música de pausa
+	    if (audio_is_playing(snd_pause_music)) 
+		{
+	        audio_stop_sound(snd_pause_music);
+			
+			if(global.momentum == 1)
+			{
+				audio_resume_sound(snd_level_1);
+			}
+			else if (global.momentum == 2)
+			{
+				audio_resume_sound(snd_boss_fight);
+			}
+	       
+		}
+	}
+	
+	
 	if (global.contador_running && !global.paused)
 	{
 		global.contador += ceil((1/room_speed))/room_speed;

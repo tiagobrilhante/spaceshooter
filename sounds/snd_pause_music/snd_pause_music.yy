@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_pause_music",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":133.74394,
+  "name":"snd_pause_music",
+  "parent":{
+    "name":"pause",
+    "path":"folders/Sounds/Musicas/pause.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_pause_music.wav",
+  "type":0,
+  "volume":0.33,
+}

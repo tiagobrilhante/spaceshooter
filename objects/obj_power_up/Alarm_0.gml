@@ -4,12 +4,15 @@
 
 //diminuir alfa em .1%
 
-image_alpha -= .1;
-
-
-if(image_alpha <= 0)
+if (!global.paused)
 {
-	instance_destroy(id, false);
+	image_alpha -= .1;
+
+
+	if(image_alpha <= 0)
+	{
+		instance_destroy(id, false);
+	}
 }
 
 // repetir o alarm em 1 seg
