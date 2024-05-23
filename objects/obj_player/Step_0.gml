@@ -50,30 +50,30 @@ if(!global.paused)
 	x = clamp(x, 64, 1856);
 	y = clamp(y, 64, 901);
 
-		if(_left && vulneravel)
-		{
-			sprite_index = spr_player_left;
-		}
-		else if(_left && !vulneravel)
-		{
-			sprite_index = spr_player_left_hit;
-		}
-		else if (_right && vulneravel)
-		{
-			sprite_index = spr_player_right;
-		}
-		else if (_right && !vulneravel)
-		{
-			sprite_index = spr_player_right_hit;
-		}
-		else if ((!_right && !_left) && !vulneravel)
-		{
-			sprite_index = spr_player_hit;
-		}
-		else
-		{
-			sprite_index = spr_player;
-		}
+	if(_left && vulneravel)
+	{
+		sprite_index = spr_player_left;
+	}
+	else if(_left && !vulneravel)
+	{
+		sprite_index = spr_player_left_hit;
+	}
+	else if (_right && vulneravel)
+	{
+		sprite_index = spr_player_right;
+	}
+	else if (_right && !vulneravel)
+	{
+		sprite_index = spr_player_right_hit;
+	}
+	else if ((!_right && !_left) && !vulneravel)
+	{
+		sprite_index = spr_player_hit;
+	}
+	else
+	{
+		sprite_index = spr_player;
+	}
 
 	atirando();
 	image_speed =1;
