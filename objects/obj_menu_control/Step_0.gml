@@ -8,6 +8,10 @@ _down = keyboard_check_pressed(ord("S"));
 _press = keyboard_check_pressed(vk_enter);
 _back = keyboard_check_pressed(vk_escape);
 
+_up |= keyboard_check_pressed(vk_up);
+_down |= keyboard_check_pressed(vk_down);
+_press |= keyboard_check_pressed(vk_space);
+_back |= keyboard_check_pressed(vk_backspace);
 	
 
 // Checar se um gamepad está conectado

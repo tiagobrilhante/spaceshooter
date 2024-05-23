@@ -13,7 +13,10 @@ if (global.paused)
 else 
 {
 	speed = 6;
-	direction = saved_direction;
+	if (instance_exists(obj_player))
+	{
+		direction = saved_direction;
+	}
 }
 	
 

@@ -3,7 +3,7 @@
 
 
 
-if (global.seq_lvl_start == false)
+if (global.seq_lvl_start == false && instance_exists(obj_player))
 {
 	if(!instance_exists(obj_inimigo01))
 	{

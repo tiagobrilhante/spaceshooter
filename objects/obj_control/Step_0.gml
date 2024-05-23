@@ -63,7 +63,11 @@ if (global.seq_lvl_start == false)
 	}
 
 
-	if (keyboard_check_pressed(vk_escape)) {
+// Verificar botão START do gamepad para alternar pausa
+	var _gamepad_index = 0; // índice do gamepad (0 para o primeiro gamepad conectado)
+
+
+	if (keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(_gamepad_index, gp_start)) {
 	    global.paused = !global.paused;  // Alterna o estado de pausa
 	}
 
