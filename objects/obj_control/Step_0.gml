@@ -119,3 +119,9 @@ if (global.contador >= 206 && global.contador < 210)
 	_qtd_exec_di++
 	destroi_inimigos();
 }
+
+if (gameover_seq) 
+{
+	destroi_inimigos();
+	destroi_tiros();
+}

@@ -68,11 +68,11 @@ if(!global.paused)
 		}
 		else if ((!_right && !_left) && !vulneravel)
 		{
-			sprite_index = spr_player_hit_1;
+			sprite_index = spr_player_hit;
 		}
 		else
 		{
-			sprite_index = spr_player_teste2;
+			sprite_index = spr_player;
 		}
 
 	atirando();

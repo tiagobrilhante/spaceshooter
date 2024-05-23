@@ -14,8 +14,8 @@
   "name":"obj_tiro_1_player_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Objects/Menu.yy",
+    "name":"como_jogar",
+    "path":"folders/Objects/Menu/como_jogar.yy",
   },
   "parentObjectId":null,
   "persistent":false,

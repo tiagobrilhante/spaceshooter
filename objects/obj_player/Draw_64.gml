@@ -15,7 +15,7 @@ if (global.momentum >= 1)
 
 	repeat(vida)
 	{
-		draw_sprite_ext(spr_player_teste2, 0, 40 + _espaco*_multiplicador , 663, 0.15, 0.15, 0 , c_white, 1);
+		draw_sprite_ext(spr_player, 0, 40 + _espaco*_multiplicador , 663, 0.15, 0.15, 0 , c_white, 1);
 
 		_multiplicador++;
 	}

@@ -11,8 +11,8 @@
   "name":"obj_player_menu_3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Objects/Menu.yy",
+    "name":"como_jogar",
+    "path":"folders/Objects/Menu/como_jogar.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_teste2",
-    "path":"sprites/spr_player_teste2/spr_player_teste2.yy",
+    "name":"spr_player",
+    "path":"sprites/spr_player/spr_player.yy",
   },
   "spriteMaskId":null,
   "visible":true,

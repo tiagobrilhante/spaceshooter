@@ -111,3 +111,14 @@ destroi_inimigos = function ()
 	}
 	
 }
+
+// metodo destruir inimigos
+///@method destroi_tiros()
+destroi_tiros = function ()
+{
+	with (obj_tiro_inimigo01) 
+	{
+	obj_tiro_inimigo01.autokill();
+	}
+	
+}

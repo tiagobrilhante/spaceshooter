@@ -34,10 +34,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_boss_combate",
-    "path":"sprites/spr_boss_combate/spr_boss_combate.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
