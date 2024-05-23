@@ -2,15 +2,16 @@
 // Você pode escrever seu código neste editor
 
 // diminui a escala do tiro
-
 if (global.paused)
 {
-	vspeed = 0;
+    speed = 0;
 }
 else
 {
-	vspeed = -15;
+    speed = 15;  // Definindo a velocidade do tiro
+    motion_set(direction, speed);
 }
+
 	
 
 image_xscale = lerp(image_xscale, 1, 0.5);

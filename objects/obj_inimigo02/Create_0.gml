@@ -11,6 +11,9 @@ chance = 35;
 pontos = 20;
 posso_me_mover_para_lado = true;
 
+atualx = x;
+atual_hspeed = 0;
+
 
 atirando = function()
 {

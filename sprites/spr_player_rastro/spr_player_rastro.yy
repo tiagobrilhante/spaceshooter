@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Player",
-    "path":"folders/Sprites/Player.yy",
+    "name":"effects",
+    "path":"folders/Sprites/Player/ship_things/effects.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

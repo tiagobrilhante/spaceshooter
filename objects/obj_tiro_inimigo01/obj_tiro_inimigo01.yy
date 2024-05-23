@@ -16,8 +16,8 @@
   "name":"obj_tiro_inimigo01",
   "overriddenProperties":[],
   "parent":{
-    "name":"Inimigos",
-    "path":"folders/Objects/Inimigos.yy",
+    "name":"inimigo_1",
+    "path":"folders/Objects/Inimigos/lvl_1/inimigo_1.yy",
   },
   "parentObjectId":null,
   "persistent":false,

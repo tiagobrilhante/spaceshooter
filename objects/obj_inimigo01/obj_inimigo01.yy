@@ -13,8 +13,8 @@
   "name":"obj_inimigo01",
   "overriddenProperties":[],
   "parent":{
-    "name":"Inimigos",
-    "path":"folders/Objects/Inimigos.yy",
+    "name":"inimigo_1",
+    "path":"folders/Objects/Inimigos/lvl_1/inimigo_1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_inimigo_teste_1",
-    "path":"sprites/spr_inimigo_teste_1/spr_inimigo_teste_1.yy",
+    "name":"spr_inimigo_1",
+    "path":"sprites/spr_inimigo_1/spr_inimigo_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

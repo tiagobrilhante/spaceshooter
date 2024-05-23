@@ -13,8 +13,8 @@
   "name":"obj_botao",
   "overriddenProperties":[],
   "parent":{
-    "name":"Etc",
-    "path":"folders/Objects/Etc.yy",
+    "name":"Menu",
+    "path":"folders/Objects/Menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
