@@ -21,7 +21,7 @@ nv_vel_ship = 1;
 // fim variável de referências
 max_level_tiro = 5;
 // base 1 - 5
-level_tiro = 1;
+level_tiro = 2;
 
 
 max_vida = 4;

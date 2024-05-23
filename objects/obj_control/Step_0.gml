@@ -16,7 +16,6 @@ if (global.seq_lvl_start == false)
 	
 	if (global.paused) 
 	{
-		show_debug_message("momentum: " + string(global.momentum))
 		// Pausar a música principal e tocar a música de pausa
 	    if (!audio_is_playing(snd_pause_music)) {
 			
@@ -115,5 +114,4 @@ if (global.contador >= 206 && global.contador < 210)
 {
 	_qtd_exec_di++
 	destroi_inimigos();
-	show_debug_message("contagem exec di = " + string(_qtd_exec_di))
 }

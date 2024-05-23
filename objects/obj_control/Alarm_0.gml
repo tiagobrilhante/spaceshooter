@@ -9,8 +9,6 @@ if (global.seq_lvl_start == false)
 	{
 		var _repetir = 	10 + (10 * ceil(global.contador/12));
 		
-		show_debug_message(_repetir);
-	
 		// no lvl 10 cria o boss (seq entrada boss)
 	
 		//  217 212 a musica termina
