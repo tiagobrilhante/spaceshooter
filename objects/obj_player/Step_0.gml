@@ -86,7 +86,16 @@ else
 
 if (!vulneravel)
 {
-	timer_invulneravel++;
+	if (!global.paused)
+	{
+		timer_invulneravel++;
+		image_speed = 1;
+	} else 
+	{
+		image_speed = 0;
+		
+	}
+		
 	
 }
 

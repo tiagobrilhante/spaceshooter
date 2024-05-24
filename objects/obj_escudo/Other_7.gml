@@ -1,6 +1,8 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+shield_criado = true;
+
 if (!global.paused)
 {
 	image_speed = 0;
