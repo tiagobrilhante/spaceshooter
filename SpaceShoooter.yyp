@@ -220,6 +220,7 @@
     {"id":{"name":"spr_brilho_tiro1","path":"sprites/spr_brilho_tiro1/spr_brilho_tiro1.yy",},},
     {"id":{"name":"spr_btn_tipo_2_ruim","path":"sprites/spr_btn_tipo_2_ruim/spr_btn_tipo_2_ruim.yy",},},
     {"id":{"name":"spr_elidan_idle","path":"sprites/spr_elidan_idle/spr_elidan_idle.yy",},},
+    {"id":{"name":"spr_elidan_sombra","path":"sprites/spr_elidan_sombra/spr_elidan_sombra.yy",},},
     {"id":{"name":"spr_elidan_walk","path":"sprites/spr_elidan_walk/spr_elidan_walk.yy",},},
     {"id":{"name":"spr_escudo","path":"sprites/spr_escudo/spr_escudo.yy",},},
     {"id":{"name":"spr_explosao","path":"sprites/spr_explosao/spr_explosao.yy",},},

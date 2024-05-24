@@ -165,6 +165,7 @@
     {"name":"spr_brilho_tiro1","order":5,"path":"sprites/spr_brilho_tiro1/spr_brilho_tiro1.yy",},
     {"name":"spr_btn_tipo_2_ruim","order":5,"path":"sprites/spr_btn_tipo_2_ruim/spr_btn_tipo_2_ruim.yy",},
     {"name":"spr_elidan_idle","order":1,"path":"sprites/spr_elidan_idle/spr_elidan_idle.yy",},
+    {"name":"spr_elidan_sombra","order":2,"path":"sprites/spr_elidan_sombra/spr_elidan_sombra.yy",},
     {"name":"spr_explosao","order":1,"path":"sprites/spr_explosao/spr_explosao.yy",},
     {"name":"spr_fundo_extra2","order":2,"path":"sprites/spr_fundo_extra2/spr_fundo_extra2.yy",},
     {"name":"spr_fundo_extra3","order":3,"path":"sprites/spr_fundo_extra3/spr_fundo_extra3.yy",},
