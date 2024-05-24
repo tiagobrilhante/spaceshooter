@@ -39,7 +39,9 @@ criar_boss = true;
 
 level_completo = false;
 
+otimizacao = false;
 
+global.uma_vez_so = false;
 
 // metodo de pontos
 ///@method ganha_pontos(pontos)

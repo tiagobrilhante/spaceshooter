@@ -87,4 +87,13 @@ function inicia_musica_inicial()
 	audio_play_sound(snd_abertura, 0, true);
 }
 
-
+function game_over_music ()
+{
+	if (!global.uma_vez_so)
+	{
+		show_debug_message("GAME OVER")
+		audio_stop_all(); 
+		audio_play_sound(snd_game_over, 0, true);
+		global.uma_vez_so = true
+	}
+}

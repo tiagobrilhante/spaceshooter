@@ -126,9 +126,7 @@ if (global.contador >= 206 && global.contador < 210)
 
 if (gameover_seq) 
 {
-	audio_stop_all();
 	destroi_inimigos();
 	destroi_tiros();
-	destroi_power_up();
-	audio_play_sound(snd_game_over, 1, true);
+	destroi_power_up();	
 }

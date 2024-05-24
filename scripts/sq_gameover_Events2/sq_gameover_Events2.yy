@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"sq_gameover_Events2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sq_gameover_Events2",
+  "parent":{
+    "name":"SpaceShoooter",
+    "path":"SpaceShoooter.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
