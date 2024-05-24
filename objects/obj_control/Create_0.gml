@@ -123,7 +123,7 @@ destroi_tiros = function ()
 	
 }
 // metodo destruir inimigos
-///@method destroi_tiros()
+///@method destroi_power_up()
 destroi_power_up = function ()
 {
 	with (obj_power_up) 
