@@ -87,6 +87,19 @@ if (global.seq_lvl_start == false)
 		if(global.momentum >= 1 && instance_exists(obj_player))
 		{
 		    global.paused = !global.paused;  // Alterna o estado de pausa
+			
+			if(!global.paused)
+			{
+				global.uma_vez_so = false;
+				
+				// destroi os botoes do menu pause se houver...
+				with(obj_botao_menu_pause)
+				{
+					instance_destroy(id);
+				}
+				
+			}
+			
 		}
 	}
 
@@ -144,4 +157,12 @@ if (gameover_seq)
 	destroi_inimigos();
 	destroi_tiros();
 	destroi_power_up();	
+}
+
+if(global.paused && !global.uma_vez_so)
+{
+			
+	instance_create_layer(room_width/2, room_height/2 ,"Boss", obj_menu_pause)
+	global.uma_vez_so = true;
+			
 }

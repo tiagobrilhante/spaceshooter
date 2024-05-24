@@ -34,12 +34,5 @@ if(global.seq_lvl_start == false)
 		draw_set_color(c_white);
 		draw_set_font(-1);
 
-		if(global.paused)
-		{
-			var _view_values = room_get_viewport(rm_level1, 0);
-			draw_set_font(fnt_paused);
-			draw_text((_view_values[3]/2)-80, (_view_values[4]/2) - 100,"Pausado");
-			draw_set_font(-1);
-		}
 	}
 }
