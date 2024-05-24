@@ -25,7 +25,7 @@ if (global.seq_lvl_start == false)
 			}
 			else if (global.momentum == 2)
 			{
-				audio_pause_sound(snd_boss_fight);
+				audio_pause_sound(snd_boss_1_fight);
 			}
 			
 	        audio_play_sound(snd_pause_music, 1, true);
@@ -44,7 +44,7 @@ if (global.seq_lvl_start == false)
 			}
 			else if (global.momentum == 2)
 			{
-				audio_resume_sound(snd_boss_fight);
+				audio_resume_sound(snd_boss_1_fight);
 			}
 	       
 		}

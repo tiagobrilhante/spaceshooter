@@ -11,7 +11,7 @@ Estado especial 1 = Ficar invulneravel enquanto recupera vida (2 minions)Estado 
 */
 
 // musica boss
-audio_play_sound(snd_boss_fight, 0, true);
+audio_play_sound(snd_boss_1_fight, 0, true);
 
 vida_max = 1000;
 vida_atual = vida_max;
