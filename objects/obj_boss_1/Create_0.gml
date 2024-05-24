@@ -80,14 +80,18 @@ troca_estado = function()
 estado_01 = function()
 {
 	// diminuirndo o valor da espera
-	espera_tiro--;   
 	
-	// se a espera do tiro for menor ou igual a 0
-	if(espera_tiro <=0)
+	if (instance_exists(obj_player))
 	{
+		espera_tiro--;   
 	
-		tiro_02();
-		espera_tiro = delay_tiro;
+		// se a espera do tiro for menor ou igual a 0
+		if(espera_tiro <=0)
+		{
+			
+			tiro_02();
+			espera_tiro = delay_tiro;
+		}
 	}
 }
 
@@ -102,39 +106,46 @@ estado_02 = function()
 		 velocidade_horizontal *= -1;
 	 }
 	
-	espera_tiro--;
+	if (instance_exists(obj_player))
+	{
+		espera_tiro--;
 	
-	if (espera_tiro <= 0)
-	{ 
-		// tiro da esquerda
-		tiro_01(false)
+		if (espera_tiro <= 0)
+		{ 
+			// tiro da esquerda
+			tiro_01(false)
 	
-		// tiro da direita	
-		tiro_01(true)
+			// tiro da direita	
+			tiro_01(true)
 		
-		espera_tiro = delay_tiro * 2;
+			espera_tiro = delay_tiro * 2;
+		}
 	}
 }
 
 estado_03 = function()
 {
-	espera_tiro--;
-	if(espera_tiro <= 0)
+	if (instance_exists(obj_player))
 	{
-		tiro_02()
-		espera_tiro = delay_tiro * 2;
-	}
+		espera_tiro--;
+		if(espera_tiro <= 0)
+		{
+			tiro_02();
+			espera_tiro = delay_tiro * 2;
+		}
 	
-	if(espera_tiro == delay_tiro)
-	{
-		tiro_01(false);	
-	}
+		if(espera_tiro == delay_tiro)
+		{
+			tiro_01(false);	
+		}
 	
-	if(espera_tiro == delay_tiro + (round(delay_tiro/2)))
-	{
+		if(espera_tiro == delay_tiro + (round(delay_tiro/2)))
+		{
 	
-		tiro_01(true);
+			tiro_01(true);
+		}
 	}
+}
 
 estado_04 = function()
 {
@@ -146,19 +157,18 @@ estado_04 = function()
 	
 	//cria os minions se eu puder
 	
-	if (criar_minions)
+	if (instance_exists(obj_player))
 	{
-		var _minion = instance_create_layer(128,500, "Inimigos", obj_boss_minion);
-		_minion.image_angle = 90;
+		if (criar_minions)
+		{
+			var _minion = instance_create_layer(128,500, "Inimigos", obj_boss_minion);
+			_minion.image_angle = 90;
 	
-		var _minion = instance_create_layer(1760,500, "Inimigos", obj_boss_minion);
-		_minion.image_angle = 270;
+			var _minion = instance_create_layer(1760,500, "Inimigos", obj_boss_minion);
+			_minion.image_angle = 270;
 		
-		// paro de criar
-		criar_minions = false;
+			// paro de criar
+			criar_minions = false;
+		}
 	}
-}
-
-
-
 }

@@ -14,7 +14,7 @@ if (global.seq_lvl_start == false && instance_exists(obj_player) && !gameover_se
 		//  217 212 a musica termina
 		
 		// base 180
-		if(global.contador < 180 && global.momentum == 1)
+		if(global.contador < 0 && global.momentum == 1)
 		{
 			
 			repeat(_repetir)
@@ -22,7 +22,7 @@ if (global.seq_lvl_start == false && instance_exists(obj_player) && !gameover_se
 				cria_inimigo();
 			}
 		}
-		else if (global.contador >= 212 && global.contador < 1000 && global.momentum == 1)
+		else if (global.contador >= 1 && global.contador < 1000 && global.momentum == 1)
 		{
 			// base 212
 		
