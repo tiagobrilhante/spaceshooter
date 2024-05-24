@@ -13,8 +13,8 @@
   "name":"obj_boss_minion",
   "overriddenProperties":[],
   "parent":{
-    "name":"Boss",
-    "path":"folders/Objects/Boss.yy",
+    "name":"boss1",
+    "path":"folders/Objects/Boss/boss1.yy",
   },
   "parentObjectId":null,
   "persistent":false,

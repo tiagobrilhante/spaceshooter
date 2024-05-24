@@ -10,15 +10,15 @@ estado 3 - Parado intercalando entre o tiro 1 e 2
 Estado especial 1 = Ficar invulneravel enquanto recupera vida (2 minions)Estado especial)
 */
 
-// estado_atual = choose("estado 1", "estado 2", "estado 3");
-
 // musica boss
 audio_play_sound(snd_boss_fight, 0, true);
 
 vida_max = 1000;
 vida_atual = vida_max;
 
+// padrão
 estado_atual = choose("estado 1", "estado 2", "estado 3");
+// estado_atual = choose("estado 4", "estado 4", "estado 4");
 
 delay_tiro = room_speed/2;
 espera_tiro = 0;
@@ -149,7 +149,6 @@ estado_03 = function()
 
 estado_04 = function()
 {
-	sprite_index = spr_boss_1_idle_2;
 	
 	// indo para  meio da tela
 	

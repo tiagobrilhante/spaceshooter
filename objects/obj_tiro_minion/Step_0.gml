@@ -4,8 +4,18 @@
 // Inherit the parent event
 event_inherited();
 
-if(instance_exists(obj_boss_1))
+
+if (global.paused)
 {
-	direction = point_direction(x, y, obj_boss_1.x, obj_boss_1.y);
-	image_angle = direction + 90;
+	speed = 0;
 }
+else 
+{
+	speed = 6;
+	if (instance_exists(obj_boss_1))
+	{
+		direction = saved_direction;
+	}
+}
+	
+

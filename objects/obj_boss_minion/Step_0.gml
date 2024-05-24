@@ -3,7 +3,6 @@
 
 
 
-
 if (image_alpha < 1 && primeiro_tiro == false)
 {
 	image_alpha += 1/room_speed;

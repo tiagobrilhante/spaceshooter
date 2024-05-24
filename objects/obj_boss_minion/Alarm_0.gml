@@ -2,8 +2,11 @@
 // Você pode escrever seu código neste editor
 
 
-instance_create_layer(x, y, "Tiros", obj_tiro_minion);
+if (!global.paused)
+{
+	instance_create_layer(x, y, "Tiros", obj_tiro_minion);
 
-alarm[0] = room_speed/2;
+	primeiro_tiro = true;  
+}
 
-primeiro_tiro = true;  
+alarm[0] = room_speed;

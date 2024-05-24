@@ -35,7 +35,7 @@ if (!global.paused)
 	}
 	else if (estado_atual == "estado 4")
 	{
-		sprite_index = spr_boss_1_attack_4;
+		sprite_index = spr_boss_1_heal;
 		estado_04();
 	}
 }

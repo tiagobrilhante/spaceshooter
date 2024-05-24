@@ -9,8 +9,8 @@
   "name":"obj_tiro_minion",
   "overriddenProperties":[],
   "parent":{
-    "name":"Boss",
-    "path":"folders/Objects/Boss.yy",
+    "name":"boss1",
+    "path":"folders/Objects/Boss/boss1.yy",
   },
   "parentObjectId":{
     "name":"obj_tiro_inimigo01",
