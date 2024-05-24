@@ -3,7 +3,7 @@
 
 // Inherit the parent event
 
-hspeed = 5;
+hspeed = 15;
 vspeed = -15;
 
 

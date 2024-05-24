@@ -52,6 +52,7 @@
     {"name":"GUI","order":17,"path":"folders/Sprites/Etc/GUI.yy",},
     {"name":"level","order":19,"path":"folders/Sprites/Etc/level.yy",},
     {"name":"bg","order":1,"path":"folders/Sprites/Etc/level/bg.yy",},
+    {"name":"level_start","order":2,"path":"folders/Sprites/Etc/level/level_start.yy",},
     {"name":"MenusSprites","order":18,"path":"folders/Sprites/Etc/MenusSprites.yy",},
     {"name":"entradas","order":1,"path":"folders/Sprites/Etc/MenusSprites/entradas.yy",},
     {"name":"planets_stars_galaxies_asteroids","order":16,"path":"folders/Sprites/Etc/planets_stars_galaxies_asteroids.yy",},

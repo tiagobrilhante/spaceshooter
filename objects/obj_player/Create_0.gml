@@ -21,7 +21,7 @@ nv_vel_ship = 1;
 // fim variável de referências
 max_level_tiro = 5;
 // base 1 - 5
-level_tiro = 1;
+level_tiro = 2;
 
 
 max_vida = 4;
@@ -227,7 +227,6 @@ perde_vida = function()
 		else
 		{
 			
-			audio_play_sound(sfx_player_explosion, 2, false);
 			instance_destroy();
 		
 			screenshake(20);

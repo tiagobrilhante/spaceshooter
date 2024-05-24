@@ -93,6 +93,7 @@ function game_over_music ()
 	{
 		show_debug_message("GAME OVER")
 		audio_stop_all(); 
+		audio_play_sound(sfx_player_explosion, 2, false);
 		audio_play_sound(snd_game_over, 0, true);
 		global.uma_vez_so = true
 	}

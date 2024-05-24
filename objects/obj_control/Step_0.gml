@@ -7,6 +7,17 @@ if(global.seq_lvl_start)
 {
 	layer_sequence_create("Level_Inicio", 960, 540, seq_lvl1);
 	global.seq_lvl_start = false;
+	
+	
+}
+
+if(global.momentum == 0)
+{
+	if(keyboard_check_pressed(vk_escape))
+	{
+		show_debug_message("apertei esc")
+		destroi_seq_lvl();
+	}
 }
 
 

@@ -28,7 +28,7 @@
           "0":{"$MomentsEventKeyframe":"","Events":[
               "game_over_music",
             ],"resourceType":"MomentsEventKeyframe","resourceVersion":"2.0",},
-        },"Disabled":false,"id":"f35d8a51-da24-41c8-b763-019b7fa721a6","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
+        },"Disabled":false,"id":"7119fcec-e2c0-46b1-b6f5-b791d466aa81","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
     ],
     "resourceType":"KeyframeStore<MomentsEventKeyframe>",
     "resourceVersion":"2.0",
