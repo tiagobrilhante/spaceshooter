@@ -45,9 +45,8 @@ ajuste_de_fluxo = 1
 
 atirando = function()
 {
-	var _fire =  true;
-	
-	
+	var _fire = true;
+
 	var _y_tiro = y - sprite_height/3;
 	var _x_tiro = 60;
 	if(_fire && alarm[0] == -1)
@@ -57,7 +56,10 @@ atirando = function()
 		// crio tiro
 		if(level_tiro == 1)
 		{
-			instance_create_layer(x, _y_tiro, "Tiros", obj_tiro_1_player_menu);
+			var _tiro1 = instance_create_layer(x, _y_tiro, "Tiros", obj_tiro_1_player_menu);
+			_tiro1.direction = 90;
+	
+				
 		}
 		else if(level_tiro == 2)
 		{
@@ -65,7 +67,8 @@ atirando = function()
 		}
 		else if(level_tiro == 3)
 		{
-			instance_create_layer(x, _y_tiro, "Tiros", obj_tiro_1_player_menu);
+			var _tiro1 = instance_create_layer(x, _y_tiro, "Tiros", obj_tiro_1_player_menu);
+			_tiro1.direction = 90;
 			tiro2();
 		}
 		
@@ -79,11 +82,11 @@ atirando = function()
 			tiro4();
 		}
 		
-		
 	}
 }
 
 // metodo para criar o tiro 2 
+
 tiro2 = function()
 {
 	var _y_tiro = y - sprite_height/3;
@@ -94,6 +97,7 @@ tiro2 = function()
 	var _tiro_2 =instance_create_layer(x + _x_tiro, _y_tiro + 10, "Tiros", obj_tiro_2_player_menu);
 	_tiro_2.hspeed = 5;
 }
+
 
 tiro4 = function()
 {
@@ -108,29 +112,5 @@ tiro4 = function()
 		_meu_tiro.image_angle = _meu_tiro.direction + 90;
 				
 		_direcao += 15;	
-	}
-}
-
-
-cria_escudo = function()
-{
-	var _shield = keyboard_check_pressed(ord("E"));
-	
-	
-	if (gamepad_is_connected(gamepad_index)) {
-		_shield |= (gamepad_button_check(gamepad_index, gp_face2));
-	}
-	
-	
-		/// criando escudo
-	if(_shield && escudos > 0 && !meu_escudo)
-	{
-		var _escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
-	
-		_escudo.alvo = id;
-	
-		meu_escudo = _escudo;
-	
-		escudos--;
 	}
 }

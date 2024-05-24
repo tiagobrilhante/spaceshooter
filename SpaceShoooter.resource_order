@@ -89,6 +89,7 @@
     {"name":"obj_escudo","order":3,"path":"objects/obj_escudo/obj_escudo.yy",},
     {"name":"obj_explosao","order":1,"path":"objects/obj_explosao/obj_explosao.yy",},
     {"name":"obj_mostra_notorious","order":7,"path":"objects/obj_mostra_notorious/obj_mostra_notorious.yy",},
+    {"name":"obj_player_1","order":6,"path":"objects/obj_player_1/obj_player_1.yy",},
     {"name":"obj_player_baloon","order":6,"path":"objects/obj_player_baloon/obj_player_baloon.yy",},
     {"name":"obj_player_menu_1","order":1,"path":"objects/obj_player_menu_1/obj_player_menu_1.yy",},
     {"name":"obj_player_menu_2","order":2,"path":"objects/obj_player_menu_2/obj_player_menu_2.yy",},

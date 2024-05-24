@@ -2,9 +2,6 @@
 // Você pode escrever seu código neste editor
 
 
-cria_escudo();
-
-
 
 if (contador <= 60 ) 
 {

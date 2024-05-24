@@ -1,7 +1,8 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-vspeed = -15;
+speed = 15;  // Definindo a velocidade do tiro
+motion_set(direction, speed);
 
 image_xscale = 3;
 image_yscale = 3;
