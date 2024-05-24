@@ -67,8 +67,12 @@ if (global.seq_lvl_start == false)
 	var _gamepad_index = 0; // índice do gamepad (0 para o primeiro gamepad conectado)
 
 
-	if (keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(_gamepad_index, gp_start)) {
-	    global.paused = !global.paused;  // Alterna o estado de pausa
+	if (keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(_gamepad_index, gp_start)) 
+	{	
+		if(global.momentum >= 1 && instance_exists(obj_player))
+		{
+		    global.paused = !global.paused;  // Alterna o estado de pausa
+		}
 	}
 
 	var _layer_id = layer_get_id("Background");

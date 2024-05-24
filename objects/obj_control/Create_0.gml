@@ -107,7 +107,7 @@ destroi_inimigos = function ()
 {
 	with (obj_inimigo01) 
 	{
-	obj_inimigo01.autokill();
+		obj_inimigo01.autokill();
 	}
 	
 }
@@ -118,7 +118,16 @@ destroi_tiros = function ()
 {
 	with (obj_tiro_inimigo01) 
 	{
-	obj_tiro_inimigo01.autokill();
+		obj_tiro_inimigo01.autokill();
 	}
 	
+}
+// metodo destruir inimigos
+///@method destroi_tiros()
+destroi_power_up = function ()
+{
+	with (obj_power_up) 
+	{
+		obj_power_up.autokill();
+	}
 }

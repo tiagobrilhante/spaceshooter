@@ -85,3 +85,8 @@ else
 	}
 	
 }
+
+autokill = function ()
+{
+	instance_destroy(id, false);
+}

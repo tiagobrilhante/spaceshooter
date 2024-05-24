@@ -240,7 +240,7 @@ perde_vida = function()
 cria_escudo = function()
 {
 	
-	if (!global.paused)
+	if (!global.paused && global.momentum >= 1 )
 	{
 		var _shield = keyboard_check_pressed(ord("E"));
 	

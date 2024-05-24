@@ -91,7 +91,7 @@ if (!vulneravel)
 }
 
 if (timer_invulneravel >= tempo_invulneravel)
-	{
-		vulneravel = true;
-		timer_invulneravel = 0;
-	}
+{
+	vulneravel = true;
+	timer_invulneravel = 0;
+}
