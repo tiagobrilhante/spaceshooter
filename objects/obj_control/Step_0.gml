@@ -13,11 +13,15 @@ if(global.seq_lvl_start)
 
 if(global.momentum == 0)
 {
-	if(keyboard_check_pressed(vk_escape))
-	{
-		show_debug_message("apertei esc")
+	
+	var _gamepad_index = 0; // índice do gamepad (0 para o primeiro gamepad conectado)
+
+
+	if (keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(_gamepad_index, gp_start)) 
+	{	
 		destroi_seq_lvl();
 	}
+	
 }
 
 
