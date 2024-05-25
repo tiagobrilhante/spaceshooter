@@ -10,12 +10,16 @@ Trata-se de um jogo desenvolvido em cerca de um mês e meio pela NotoriousTeam (
 A idéia por trás do jogo veio de um projeto anterior de mesmo nome, mas desenvolvido de forma orgânica em Java e sem uso de frameworks (pra ser difícil mesmo) !!!
 No entanto, como o 5º Período de Ciência da Computação da UNINORTE - Manaus , possui diversas matérias ligadas ao desenvolvimento de jogos, e uma delas tratava sobre GameEngines, ficou estabelecido que a nota da Segunda Avaliação Semestral, seria um projeto completo de jogo, desenvolvido por uma equipe de até 10 alunos, que deveria ser apresentado dia 28 de Maio de 2024, por ocasião da UNINORTE - GameShow. <br>
 <br>
+O desafio foi enorme tendo em vista que a grande maioria dos participantes do projeto nunca tinha manipulado o GameMaker antes, e não tinha familiaridade com o desenvolvimento de jogos.
+<br>
+No entanto, cerca de um mês e meio depois do início dos trabalhos, apresentamos o jogo em uma fase alpha e jogável! <br>
+O escopo do jogo está reduzido devido ao pouco tempo que o projeto recebeu, mas ainda assim é divertido!<br>
+
 
 | O motor de jogo usado foi o GamemakerStudio 2, por ele ser objeto de estudo dos alunos do 5º Período do Curso de Ciência da Computação da Uninorte | <img width="65%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/GameMaker_Studio_2_logo.png/1200px-GameMaker_Studio_2_logo.png?20170527135015"> |
 |----|----|
 
-<br>
-Características do projeto:
+<h2>Características do projeto:</h2>
 <ul>
 <li> 2D do tipo BulletHell</li>
 <li> Visão top-down</li>
@@ -55,32 +59,35 @@ O lema da NotoriousTeam é "Ideas hold power", que em tradução direta do ingl�
 A expressão "Ideas hold power" significa que ideias têm o poder de influenciar, transformar e moldar o mundo. Elas são forças fundamentais que podem inspirar mudanças, iniciar movimentos, resolver problemas e criar novas realidades. Em essência, esta frase destaca a importância e o impacto significativo que as ideias podem ter na sociedade e na vida das pessoas.
 
 
-
- 
-O GDD e o OneSheet do game pode ser acessao clicando aqu:<br>
-
-
-<br>
-O escopo do jogo está reduzido devido ao pouco tempo que o projeto recebeu, mas ainda assim é jogável e divertido!<br>
-<br>
 <h2>Sobre a instalação</h2>
-<ol>
-  <li>Explicação para windows</li>
-  <li><a href="https://drive.google.com/file/d/1w1__Z8zodQvb62JC_b_JD1pscE4zPs9k/view?usp=sharing"> Instalador do Jogo </a></li>
+
+<h3>Explicação para windows</h3>
+<ol> 
+ <li><a href="https://drive.google.com/file/d/1w1__Z8zodQvb62JC_b_JD1pscE4zPs9k/view?usp=sharing"> Baixe o arquivo aqui e descompacte na sua máquina. </a></li>
+ <li>Encontre o arquivo executável no interior da pasta descompactada.</li>
+ <li>Execute esse arquivo, e seja feliz!</li>
 </ol>
 
+<h3>Explicação para jogar via web</h3>
+<ul>
+ <li> por ter sido desenvolvido no GameMaker, o jogo pode ser jogado via navegador clicando <a href="https://gx.games/pt-br/games/wbs322/scraps-world/"> aqui!</a></li>
+</ul>
 <br>
-Teste 1
-<br>
-<br>
-Com a entrega do trabalho, uma nova fase se iniciará no projeto, onde vamos procurar disponibilizar o jogo na plataforma STEAM.<br>
-Para tanto, foi criada a equipe "Notorious Team", que vai buscar a adequação do projeto para a disponibilização do público.
+
+<h2>Sobre o futuro do projeto</h2>
+
+Após a passagem pela GameShow, uma nova fase se iniciará para o ScrapsWorld, o nosso futuro é conseguir chegar à STEAM, onde disponibilizaremos o jogo.<br>
+A NotoriousTeam pretende realizar essa façanha até 2026, com o jogo já em sua fase final.
 
 <br>
 Seja feliz, é obrigatório<br>
 Todo poder emana do código<br>
 
 <br>
-<img src="src/res/concept/jogoTela.png">
+<img src="https://i.postimg.cc/K8ck4dkL/tellla11-git.png">
+<img src="https://i.postimg.cc/6pGsVQvN/Captura-de-tela-2024-05-25-173308.png">
+<img src="https://i.postimg.cc/XNFQgy2L/Captura-de-tela-2024-05-25-173426.png">
+<img src="https://i.postimg.cc/G3QsrL9r/Captura-de-tela-2024-05-25-173531.png">
+
 
 
