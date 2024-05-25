@@ -1,12 +1,17 @@
 
 # GameShow - Uninorte<br>
 <h1>Scraps World</h1>
-<img src="https://i.postimg.cc/BZgLFvqw/Spraps-World-Modelo2.png">
+
+<img src="https://i.postimg.cc/0NVvDzzf/imagem-Git1-1-1.png">
+
 O Jogo ScrapsWorld foi desenvolvido com a finalidade de ser apresentado na GameShow - Uninorte.<br>
 <br>
 Trata-se de um jogo 2D doi tipo BulletHell, com visão top-down, que utiliza o motor gráfico Gamemaker Studio (ensinado no 5º Periodo do Curso de Ciência da COmputação).<br>
 As músicas e artes do projeto são proprietárias (desenvolvidas pelos membros do grupo).<br>
 O GDD e o OneSheet do game pode ser acessao clicando aqu:<br>
+
+<img src="https://i.postimg.cc/BZgLFvqw/Spraps-World-Modelo2.png">
+
 
 <a href="https://drive.google.com/file/d/1bWNoo6TBhiY8tVFYTSsE7a8XYzOcR1Z6/view"> OneSheet - PDF</a>
 <br>
