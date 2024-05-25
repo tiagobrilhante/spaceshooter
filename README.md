@@ -93,6 +93,6 @@ Todo poder emana do código<br>
 
 
 <br><br>
-Tiago Brilhante é um sênior de 44 anos, que resolveu fazer Ciência da COmputação.
+Tiago Brilhante é um sênior de 44 anos, que resolveu virar aluno de Ciência da Computação.
 
 
