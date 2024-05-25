@@ -1,16 +1,26 @@
-
-# GameShow - Uninorte<br>
-<h1>Scraps World</h1>
+<h1>ScrapsWorld by NotoriousTeam - GameShow - Uninorte - 2024</h1>
 
 <img src="https://i.postimg.cc/0NVvDzzf/imagem-Git1-1-1.png">
 
-O Jogo ScrapsWorld foi desenvolvido com a finalidade de ser apresentado na GameShow - Uninorte.<br>
+O Jogo ScrapsWorld foi desenvolvido em cerca de um mês e meio pela NotoriousTeam, com a finalidade de ser apresentado na GameShow - Uninorte do ano de 2024.<br>
 <br>
 Trata-se de um jogo 2D doi tipo BulletHell, com visão top-down, que utiliza o motor gráfico Gamemaker Studio (ensinado no 5º Periodo do Curso de Ciência da COmputação).<br>
+
+<div class="row">
+  <div class="col">
+    <img src="https://i.postimg.cc/RhpQt5fh/logonotorious.png">  
+  </div>
+  <div class="col">
+  
+  </div>
+</div>
+
 As músicas e artes do projeto são proprietárias (desenvolvidas pelos membros do grupo).<br>
 O GDD e o OneSheet do game pode ser acessao clicando aqu:<br>
 
 <img src="https://i.postimg.cc/BZgLFvqw/Spraps-World-Modelo2.png">
+
+
 
 
 <a href="https://drive.google.com/file/d/1bWNoo6TBhiY8tVFYTSsE7a8XYzOcR1Z6/view"> OneSheet - PDF</a>
