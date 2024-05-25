@@ -20,12 +20,10 @@ No entanto, como o 5º Período de Ciência da Computação da UNINORTE - Manaus
 <br>
 Algumas músicas e artes do projeto são proprietárias (desenvolvidas pelos membros do grupo).
 <br>
-Também foram usados os site abaixo relacionados:
+Também foram usados os site abaixo relacionados: <br>
 
 - <a href="https://incompetech.com/">https://incompetech.com/</a> para algumas trilhas sonoras. 
 - <a href="https://itch.io/">https://itch.io/ para conjuntos de sprites</a>
-
-<br>
 
 <h2>Quem é a NotoriousTeam</h2>
 
