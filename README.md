@@ -12,12 +12,14 @@ Trata-se de um jogo 2D doi tipo BulletHell, com visão top-down, que utiliza o m
 <h2>Sobre o jogo</h2>
 A idéia por trás do jogo veio de um projeto anterior de mesmo nome, mas desenvolvido de forma orgânica em Java e sem uso de frameworks (pra ser difícil mesmo) !!!
 No entanto, como o 5º Período de Ciência da Computação da UNINORTE - Manaus , possui diversas matérias ligadas ao desenvolvimento de jogos, e uma delas tratava sobre GameEngines, ficou estabelecido que a nota da Segunda Avaliação Semestral, seria um projeto completo de jogo, desenvolvido por uma equipe de até 10 alunos, que deveria ser apresentado dia 28 de Maio de 2024, por ocasião da UNINORTE - GameShow. <br>
-Algumas músicas e artes do projeto são proprietárias (desenvolvidas pelos membros do grupo).<br>
-
+<br>
 
 | O motor de jogo usado foi o GamemakerStudio 2, por ele ser objeto de estudo dos alunos do 5º Período do Curso de Ciência da Computação da Uninorte | <img width="65%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/GameMaker_Studio_2_logo.png/1200px-GameMaker_Studio_2_logo.png?20170527135015"> |
 |----|----|
 
+<br>
+Algumas músicas e artes do projeto são proprietárias (desenvolvidas pelos membros do grupo).
+<br>
 Também foram usados os site abaixo relacionados:
 
 - <a href="https://incompetech.com/">https://incompetech.com/</a> para algumas trilhas sonoras. 
