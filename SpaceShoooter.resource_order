@@ -115,7 +115,6 @@
     {"name":"rm_inicio","order":1,"path":"rooms/rm_inicio/rm_inicio.yy",},
     {"name":"rm_pontos","order":2,"path":"rooms/rm_pontos/rm_pontos.yy",},
     {"name":"rm_sobre","order":4,"path":"rooms/rm_sobre/rm_sobre.yy",},
-    {"name":"sq_gameover_Events2","order":15,"path":"scripts/sq_gameover_Events2/sq_gameover_Events2.yy",},
     {"name":"seq_boss_1_death","order":1,"path":"sequences/seq_boss_1_death/seq_boss_1_death.yy",},
     {"name":"sq_level_end","order":3,"path":"sequences/sq_level_end/sq_level_end.yy",},
     {"name":"sq_planeta_passando","order":4,"path":"sequences/sq_planeta_passando/sq_planeta_passando.yy",},

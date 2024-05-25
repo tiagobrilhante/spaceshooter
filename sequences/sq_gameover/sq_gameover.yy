@@ -14,10 +14,7 @@
     "resourceType":"KeyframeStore<MessageEventKeyframe>",
     "resourceVersion":"2.0",
   },
-  "eventStubScript":{
-    "name":"sq_gameover_Events2",
-    "path":"scripts/sq_gameover_Events2/sq_gameover_Events2.yy",
-  },
+  "eventStubScript":null,
   "eventToFunction":{},
   "length":600.0,
   "lockOrigin":false,

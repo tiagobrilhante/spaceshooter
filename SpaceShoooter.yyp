@@ -150,7 +150,6 @@
     {"id":{"name":"rm_pontos","path":"rooms/rm_pontos/rm_pontos.yy",},},
     {"id":{"name":"rm_sobre","path":"rooms/rm_sobre/rm_sobre.yy",},},
     {"id":{"name":"Funcoes","path":"scripts/Funcoes/Funcoes.yy",},},
-    {"id":{"name":"sq_gameover_Events2","path":"scripts/sq_gameover_Events2/sq_gameover_Events2.yy",},},
     {"id":{"name":"seq_boss_1_death","path":"sequences/seq_boss_1_death/seq_boss_1_death.yy",},},
     {"id":{"name":"seq_boss_1_entrada","path":"sequences/seq_boss_1_entrada/seq_boss_1_entrada.yy",},},
     {"id":{"name":"seq_lvl1","path":"sequences/seq_lvl1/seq_lvl1.yy",},},
