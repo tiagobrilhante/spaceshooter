@@ -19,6 +19,7 @@ O escopo do jogo está reduzido devido ao pouco tempo que o projeto recebeu, mas
 <h2>Sobre a instalação</h2>
 <ol>
   <li>Explicação para windows</li>
+  <li><a href="https://drive.google.com/file/d/1w1__Z8zodQvb62JC_b_JD1pscE4zPs9k/view?usp=sharing"> Instalador do Jogo </a></li>
 </ol>
 
 <br>
