@@ -6,8 +6,10 @@ O Jogo ScrapsWorld foi desenvolvido em cerca de um mês e meio pela NotoriousTea
 <br>
 Trata-se de um jogo 2D doi tipo BulletHell, com visão top-down, que utiliza o motor gráfico Gamemaker Studio (ensinado no 5º Periodo do Curso de Ciência da COmputação).<br>
 
-| <img width="65%" src="https://i.postimg.cc/RhpQt5fh/logonotorious.png">   |  A NotoriousTeam foi criada por Tiago da Silva Brilhante em 2022, e desde então busca desenvolver projetos com excelência. <br> Para esse projeto, a equipe contou com os seguintes integrantes: <br><br> Tiago da Silva Brilhante - tiagobrilhantemania@gmail.com<br>Danilson Vitor da Silva - danilsonvitor@gmail.com<br>Paulo Ricardo Damião Lima - maicon271271@gmail.com<br>Thiago Monteiro dos Santos - tms147thiagomonteiro.tm@gmail.com<br>Axl John Lima da Costa - axljohn2@gmail.com<br>Lucas Araujo Amorim - lucas.araujoamorim@gmail.com<br>Daniel Alves Silva Filho - alvesxdaniel@gmail.com<br>Nicolas Dias Xavier - nicolasdxv@gmail.com| 
+| <img width="65%" src="https://i.postimg.cc/RhpQt5fh/logonotorious.png"> |  A NotoriousTeam foi criada por Tiago da Silva Brilhante em 2022, e desde então busca desenvolver projetos com excelência. <br> Para esse projeto, a equipe contou com os seguintes integrantes: <br><br> Tiago da Silva Brilhante - tiagobrilhantemania@gmail.com<br>Danilson Vitor da Silva - danilsonvitor@gmail.com<br>Paulo Ricardo Damião Lima - maicon271271@gmail.com<br>Thiago Monteiro dos Santos - tms147thiagomonteiro.tm@gmail.com<br>Axl John Lima da Costa - axljohn2@gmail.com<br>Lucas Araujo Amorim - lucas.araujoamorim@gmail.com<br>Daniel Alves Silva Filho - alvesxdaniel@gmail.com<br>Nicolas Dias Xavier - nicolasdxv@gmail.com|
 |:--------------:|-----------------------------------------------------|
+
+<br>
 O lema da NotoriousTeam é "Ideas hold power", que em tradução direta do inglês, significa: Ideias têm poder.
 <br>
 A expressão "Ideas hold power" significa que ideias têm o poder de influenciar, transformar e moldar o mundo. Elas são forças fundamentais que podem inspirar mudanças, iniciar movimentos, resolver problemas e criar novas realidades. Em essência, esta frase destaca a importância e o impacto significativo que as ideias podem ter na sociedade e na vida das pessoas.
