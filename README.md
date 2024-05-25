@@ -35,13 +35,13 @@ Algumas músicas e artes do projeto são proprietárias (desenvolvidas pelos mem
 <br>
 Também foram usados os site abaixo relacionados: <br><br>
 
-- <a href="https://incompetech.com/">https://incompetech.com/</a> para algumas trilhas sonoras. 
-- <a href="https://itch.io/">https://itch.io/ para conjuntos de sprites</a>
+- <a href="https://incompetech.com/" target="_BLANK">https://incompetech.com/</a> para algumas trilhas sonoras. 
+- <a href="https://itch.io/" target="_BLANK">https://itch.io/ para conjuntos de sprites</a>
 
 
 <br>
 <h3>Documentação</h3>
-Você pode acessar o nosso OneSheet <a href="https://drive.google.com/file/d/1bWNoo6TBhiY8tVFYTSsE7a8XYzOcR1Z6/view">aqui</a>
+Você pode acessar o nosso OneSheet <a href="https://drive.google.com/file/d/1bWNoo6TBhiY8tVFYTSsE7a8XYzOcR1Z6/view" target="_BLANK">aqui</a>
 <img src="https://i.postimg.cc/BZgLFvqw/Spraps-World-Modelo2.png">
 
 <br>
@@ -63,14 +63,14 @@ A expressão "Ideas hold power" significa que ideias têm o poder de influenciar
 
 <h3>Explicação para windows</h3>
 <ol> 
- <li><a href="https://drive.google.com/file/d/1w1__Z8zodQvb62JC_b_JD1pscE4zPs9k/view?usp=sharing"> Baixe o arquivo aqui e descompacte na sua máquina. </a></li>
+ <li><a href="https://drive.google.com/file/d/1w1__Z8zodQvb62JC_b_JD1pscE4zPs9k/view?usp=sharing" target="_BLANK"> Baixe o arquivo aqui e descompacte na sua máquina. </a></li>
  <li>Encontre o arquivo executável no interior da pasta descompactada.</li>
  <li>Execute esse arquivo, e seja feliz!</li>
 </ol>
 
 <h3>Explicação para jogar via web</h3>
 <ul>
- <li> por ter sido desenvolvido no GameMaker, o jogo pode ser jogado via navegador clicando <a href="https://gx.games/pt-br/games/wbs322/scraps-world/"> aqui!</a></li>
+ <li> por ter sido desenvolvido no GameMaker, o jogo pode ser jogado via navegador clicando <a href="https://gx.games/pt-br/games/wbs322/scraps-world/" target="_BLANK"> aqui!</a></li>
 </ul>
 <br>
 
