@@ -17,7 +17,7 @@ Também foram usados os site abaixo relacionados:
 - <a href="https://itch.io/">https://itch.io/ para conjuntos de sprites</a>
 
 | O motor de jogo usado foi o GamemakerStudio 2, por ele ser objeto de estudo dos alunos do 5º Período do Curso de Ciência da Computação da Uninorte | <img width="65%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/GameMaker_Studio_2_logo.png/1200px-GameMaker_Studio_2_logo.png?20170527135015"> |
-|:--:|----|
+|----|----|
 
 
 <h2>Quem é a NotoriousTeam</h2>
