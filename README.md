@@ -15,14 +15,16 @@ No entanto, como o 5º Período de Ciência da Computação da UNINORTE - Manaus
 |----|----|
 
 <br>
-Características:
-- 2D do tipo BulletHell
-- Visão top-down
-- PixelArt
-- Conceitos avançados de gerenciamento de status e menus
-- Trilha sonora envolvente
-- Dificuldade moderada
-- Diversão garantida
+Características do projeto:
+<ul>
+<li> 2D do tipo BulletHell</li>
+<li> Visão top-down</li>
+<li> PixelArt</li>
+<li> Conceitos avançados de gerenciamento de status e menus</li>
+<li> Trilha sonora envolvente</li>
+<li> Dificuldade moderada</li>
+<li> Diversão garantida</li>
+</ul>
 
 <br>
 Algumas músicas e artes do projeto são proprietárias (desenvolvidas pelos membros do grupo).
