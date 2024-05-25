@@ -5,7 +5,7 @@ NotoriousTeam
 
 # GameShow - Uninorte<br>
 <h1>Scraps World</h1>
-<img src="src/res/concept/telaInicialCaptura.png">
+<img src="https://i.postimg.cc/BZgLFvqw/Spraps-World-Modelo2.png">
 O Jogo ScrapsWorld foi desenvolvido com a finalidade de ser apresentado na GameShow - Uninorte.<br>
 <br>
 Trata-se de um jogo 2D doi tipo BulletHell, com visão top-down, que utiliza o motor gráfico Gamemaker Studio (ensinado no 5º Periodo do Curso de Ciência da COmputação).<br>
