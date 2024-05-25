@@ -15,6 +15,10 @@ Trata-se de um jogo 2D doi tipo BulletHell, com visão top-down, que utiliza o m
   </tbody>
 </table>
 
+| <img width="35%" src="https://i.postimg.cc/RhpQt5fh/logonotorious.png">   |  A NotoriousTeam foi criada por Tiago da Silva Brilhante |
+|:-:|:-:|
+
+
   As músicas e artes do projeto são proprietárias (desenvolvidas pelos membros do grupo).<br>
 O GDD e o OneSheet do game pode ser acessao clicando aqu:<br>
 
