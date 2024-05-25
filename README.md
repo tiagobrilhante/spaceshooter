@@ -83,7 +83,7 @@ A NotoriousTeam pretende realizar essa façanha até 2026, com o jogo já em sua
 Seja feliz, é obrigatório<br>
 Todo poder emana do código<br>
 
-<br>
+<h2>Imagens do jogo</h2>
 <img src="https://i.postimg.cc/K8ck4dkL/tellla11-git.png">
 <img src="https://i.postimg.cc/6pGsVQvN/Captura-de-tela-2024-05-25-173308.png">
 <img src="https://i.postimg.cc/g2G0Btfg/imgsobre.png">
@@ -91,5 +91,8 @@ Todo poder emana do código<br>
 <img src="https://i.postimg.cc/XNFQgy2L/Captura-de-tela-2024-05-25-173426.png">
 <img src="https://i.postimg.cc/G3QsrL9r/Captura-de-tela-2024-05-25-173531.png">
 
+
+<br><br>
+Tiago Brilhante é um sênior de 44 anos, que resolveu fazer Ciência da COmputação.
 
 
