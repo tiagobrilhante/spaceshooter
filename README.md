@@ -29,7 +29,7 @@ Características do projeto:
 <br>
 Algumas músicas e artes do projeto são proprietárias (desenvolvidas pelos membros do grupo).
 <br>
-Também foram usados os site abaixo relacionados: <br>
+Também foram usados os site abaixo relacionados: <br><br>
 
 - <a href="https://incompetech.com/">https://incompetech.com/</a> para algumas trilhas sonoras. 
 - <a href="https://itch.io/">https://itch.io/ para conjuntos de sprites</a>
