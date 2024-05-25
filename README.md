@@ -4,10 +4,7 @@
 
 <h2>O que é ScrapsWorld</h2>
 
-
-O Jogo ScrapsWorld foi desenvolvido em cerca de um mês e meio pela NotoriousTeam, com a finalidade de ser apresentado na GameShow - Uninorte do ano de 2024.<br>
-<br>
-Trata-se de um jogo 2D doi tipo BulletHell, com visão top-down, que utiliza o motor gráfico Gamemaker Studio (ensinado no 5º Periodo do Curso de Ciência da COmputação).<br>
+Trata-se de um jogo desenvolvido em cerca de um mês e meio pela NotoriousTeam (grupo de alunos do 5º Período do Curso de Ciência da Computação), com a finalidade de ser apresentado na GameShow - Uninorte do ano de 2024.<br>
 
 <h2>Sobre o jogo</h2>
 A idéia por trás do jogo veio de um projeto anterior de mesmo nome, mas desenvolvido de forma orgânica em Java e sem uso de frameworks (pra ser difícil mesmo) !!!
@@ -16,6 +13,16 @@ No entanto, como o 5º Período de Ciência da Computação da UNINORTE - Manaus
 
 | O motor de jogo usado foi o GamemakerStudio 2, por ele ser objeto de estudo dos alunos do 5º Período do Curso de Ciência da Computação da Uninorte | <img width="65%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/GameMaker_Studio_2_logo.png/1200px-GameMaker_Studio_2_logo.png?20170527135015"> |
 |----|----|
+
+<br>
+Características:
+- 2D do tipo BulletHell
+- Visão top-down
+- PixelArt
+- Conceitos avançados de gerenciamento de status e menus
+- Trilha sonora envolvente
+- Dificuldade moderada
+- Diversão garantida
 
 <br>
 Algumas músicas e artes do projeto são proprietárias (desenvolvidas pelos membros do grupo).
