@@ -34,6 +34,16 @@ Também foram usados os site abaixo relacionados: <br><br>
 - <a href="https://incompetech.com/">https://incompetech.com/</a> para algumas trilhas sonoras. 
 - <a href="https://itch.io/">https://itch.io/ para conjuntos de sprites</a>
 
+
+<br>
+<h3>Documentação</h3>
+Você pode acessar o nosso OneSheet <a href="https://drive.google.com/file/d/1bWNoo6TBhiY8tVFYTSsE7a8XYzOcR1Z6/view">aqui</a>
+<img src="https://i.postimg.cc/BZgLFvqw/Spraps-World-Modelo2.png">
+
+<br>
+O GDD do projeto se encontra <a href="#">aqui</a>
+
+ 
 <h2>Quem é a NotoriousTeam</h2>
 
 | <img width="65%" src="https://i.postimg.cc/RhpQt5fh/logonotorious.png"> |  A NotoriousTeam foi criada por Tiago da Silva Brilhante em 2022, e desde então busca desenvolver projetos com excelência. <br> Para esse projeto, a equipe contou com os seguintes integrantes: <br><br> Tiago da Silva Brilhante - tiagobrilhantemania@gmail.com<br>Danilson Vitor da Silva - danilsonvitor@gmail.com<br>Paulo Ricardo Damião Lima - maicon271271@gmail.com<br>Thiago Monteiro dos Santos - tms147thiagomonteiro.tm@gmail.com<br>Axl John Lima da Costa - axljohn2@gmail.com<br>Lucas Araujo Amorim - lucas.araujoamorim@gmail.com<br>Daniel Alves Silva Filho - alvesxdaniel@gmail.com<br>Nicolas Dias Xavier - nicolasdxv@gmail.com|
@@ -46,23 +56,9 @@ A expressão "Ideas hold power" significa que ideias têm o poder de influenciar
 
 
 
-
-
-
-
-
  
 O GDD e o OneSheet do game pode ser acessao clicando aqu:<br>
 
-<img src="https://i.postimg.cc/BZgLFvqw/Spraps-World-Modelo2.png">
-
-
-
-
-<a href="https://drive.google.com/file/d/1bWNoo6TBhiY8tVFYTSsE7a8XYzOcR1Z6/view"> OneSheet - PDF</a>
-<br>
-
-<a href="https://drive.google.com/file/d/1RmgqGt3mS9cF0MNxM5ryb-CKNhphs_k7/view"> OneSheet - PNG</a>
 
 <br>
 O escopo do jogo está reduzido devido ao pouco tempo que o projeto recebeu, mas ainda assim é jogável e divertido!<br>
