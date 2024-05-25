@@ -16,7 +16,7 @@ Também foram usados os site abaixo relacionados:
 - <a href="https://incompetech.com/">https://incompetech.com/</a> para algumas trilhas sonoras. 
 - <a href="https://itch.io/">https://itch.io/ para conjuntos de sprites</a>
 
-| O motor de jogo usado foi o GamemakerStudio 2, por ele ser objeto de estudo dos alunos do 5º Período do Curso de Ciência da Computação da Uninorte | <img width="65%" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AGameMaker_Studio_2_logo.png&psig=AOvVaw1uCpk4KVYxDb-lrMq6QTck&ust=1716757197859000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDskYnZqYYDFQAAAAAdAAAAABAE"> |
+| O motor de jogo usado foi o GamemakerStudio 2, por ele ser objeto de estudo dos alunos do 5º Período do Curso de Ciência da Computação da Uninorte | <img width="65%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/GameMaker_Studio_2_logo.png/1200px-GameMaker_Studio_2_logo.png?20170527135015"> |
 |:--:|----|
 
 
