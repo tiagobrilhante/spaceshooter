@@ -63,7 +63,7 @@ A expressão "Ideas hold power" significa que ideias têm o poder de influenciar
 
 <h3>Explicação para windows</h3>
 <ol> 
- <li><a href="https://drive.google.com/file/d/1w1__Z8zodQvb62JC_b_JD1pscE4zPs9k/view?usp=sharing" target="_BLANK"> Baixe o arquivo aqui e descompacte na sua máquina. </a></li>
+ <li><a href="https://drive.google.com/file/d/1TOLMK9Ku-_LXZpQ1qGCZj7jWiXDTGB5y/view?usp=sharing"> Baixe o arquivo aqui e descompacte na sua máquina. </a></li>
  <li>Encontre o arquivo executável no interior da pasta descompactada.</li>
  <li>Execute esse arquivo, e seja feliz!</li>
 </ol>
@@ -86,6 +86,8 @@ Todo poder emana do código<br>
 <br>
 <img src="https://i.postimg.cc/K8ck4dkL/tellla11-git.png">
 <img src="https://i.postimg.cc/6pGsVQvN/Captura-de-tela-2024-05-25-173308.png">
+<img src="https://i.postimg.cc/g2G0Btfg/imgsobre.png">
+<img src="https://i.postimg.cc/0Npc2Qtk/Captura-de-tela-2024-05-25-183438.png">
 <img src="https://i.postimg.cc/XNFQgy2L/Captura-de-tela-2024-05-25-173426.png">
 <img src="https://i.postimg.cc/G3QsrL9r/Captura-de-tela-2024-05-25-173531.png">
 
