@@ -1,15 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ScrapsWorld</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>ScrapsWorld by NotoriousTeam - GameShow - Uninorte - 2024</h1>
-
-
+<h1>ScrapsWorld by NotoriousTeam - GameShow - Uninorte - 2024</h1>
 
 <img src="https://i.postimg.cc/0NVvDzzf/imagem-Git1-1-1.png">
 
@@ -17,16 +6,16 @@ O Jogo ScrapsWorld foi desenvolvido em cerca de um mês e meio pela NotoriousTea
 <br>
 Trata-se de um jogo 2D doi tipo BulletHell, com visão top-down, que utiliza o motor gráfico Gamemaker Studio (ensinado no 5º Periodo do Curso de Ciência da COmputação).<br>
 
-<div class="row">
-  <div class="col">
-    <img width="50%" src="https://i.postimg.cc/RhpQt5fh/logonotorious.png">  
-  </div>
-  <div class="col">
-  <p>A NotoriousTeam foi criada por Tiago da Silva Brilhante</p>
-  </div>
-</div>
+<table>
+  <tbody>
+    <tr>
+      <td><img width="35%" src="https://i.postimg.cc/RhpQt5fh/logonotorious.png">  </td>
+      <td><p>A NotoriousTeam foi criada por Tiago da Silva Brilhante</p></td>
+    </tr>
+  </tbody>
+</table>
 
-As músicas e artes do projeto são proprietárias (desenvolvidas pelos membros do grupo).<br>
+  As músicas e artes do projeto são proprietárias (desenvolvidas pelos membros do grupo).<br>
 O GDD e o OneSheet do game pode ser acessao clicando aqu:<br>
 
 <img src="https://i.postimg.cc/BZgLFvqw/Spraps-World-Modelo2.png">
@@ -61,9 +50,5 @@ Todo poder emana do código<br>
 
 <br>
 <img src="src/res/concept/jogoTela.png">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
-</html>
-
 
 
