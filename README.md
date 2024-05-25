@@ -7,7 +7,7 @@ O Jogo ScrapsWorld foi desenvolvido em cerca de um mês e meio pela NotoriousTea
 Trata-se de um jogo 2D doi tipo BulletHell, com visão top-down, que utiliza o motor gráfico Gamemaker Studio (ensinado no 5º Periodo do Curso de Ciência da COmputação).<br>
 
 | <img width="45%" src="https://i.postimg.cc/RhpQt5fh/logonotorious.png">   |  A NotoriousTeam foi criada por Tiago da Silva Brilhante em 2022, e desde então busca desenvolver projetos com excelência. <br> A equipe atualmente conta com os seguintes integrantes: <br><br> <ul><li>Tiago da Silva Brilhante - tiagobrilhantemania@gmail.com</li><li>Danilson Vitor da Silva - danilsonvitor@gmail.com</li><li>Paulo Ricardo Damião Lima - maicon271271@gmail.com</li><li>Thiago Monteiro dos Santos - tms147thiagomonteiro.tm@gmail.com</li><li>Axl John Lima da Costa - axljohn2@gmail.com</li><li>Lucas Araujo Amorim - lucas.araujoamorim@gmail.com</li><li>Daniel Alves Silva Filho - alvesxdaniel@gmail.com</li><li>Nicolas Dias Xavier - nicolasdxv@gmail.com</li></ul>|
-|:-:|---|
+|:--------------:|-----------------------------------------------------|
 
 
 
