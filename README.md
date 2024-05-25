@@ -2,9 +2,23 @@
 
 <img src="https://i.postimg.cc/0NVvDzzf/imagem-Git1-1-1.png">
 
+<h2>O que é ScrapsWorld</h2>
+
+
 O Jogo ScrapsWorld foi desenvolvido em cerca de um mês e meio pela NotoriousTeam, com a finalidade de ser apresentado na GameShow - Uninorte do ano de 2024.<br>
 <br>
 Trata-se de um jogo 2D doi tipo BulletHell, com visão top-down, que utiliza o motor gráfico Gamemaker Studio (ensinado no 5º Periodo do Curso de Ciência da COmputação).<br>
+
+<h2>Sobre a trila sonora</h2>
+Algumas músicas e artes do projeto são proprietárias (desenvolvidas pelos membros do grupo).<br>
+Também foram usados os site abaixo relacionados:
+
+- <a href="https://incompetech.com/">https://incompetech.com/</a> para algumas trilhas sonoras. 
+- <a href="https://itch.io/">https://itch.io/ para conjuntos de sprites</a>
+
+| O motor de jogo usado foi o GamemakerStudio 2, por ele ser objeto de estudo dos alunos do 5º Período do Curso de Ciência da Computação da Uninorte | ![]https://i.postimg.cc/RhpQt5fh/logonotorious.png?w=65% |
+|:--:|----|
+
 
 <h2>Quem é a NotoriousTeam</h2>
 
@@ -23,7 +37,7 @@ A expressão "Ideas hold power" significa que ideias têm o poder de influenciar
 
 
 
-  As músicas e artes do projeto são proprietárias (desenvolvidas pelos membros do grupo).<br>
+ 
 O GDD e o OneSheet do game pode ser acessao clicando aqu:<br>
 
 <img src="https://i.postimg.cc/BZgLFvqw/Spraps-World-Modelo2.png">
