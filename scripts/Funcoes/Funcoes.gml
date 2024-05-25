@@ -98,3 +98,8 @@ function game_over_music ()
 		global.uma_vez_so = true
 	}
 }
+
+function para_todas_musicas()
+{
+	audio_stop_all();
+}

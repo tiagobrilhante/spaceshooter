@@ -13,8 +13,8 @@ if (global.seq_lvl_start == false && instance_exists(obj_player) && !gameover_se
 	
 		//  217 212 a musica termina
 		
-		// base 180
-		if(global.contador < 180 && global.momentum == 1)
+		// base 200
+		if(global.contador < 200 && global.momentum == 1)
 		{
 			
 			// para a criação de inimigos
@@ -23,9 +23,9 @@ if (global.seq_lvl_start == false && instance_exists(obj_player) && !gameover_se
 				cria_inimigo();
 			}
 		}
-		else if (global.contador >= 213 && global.contador < 1000 && global.momentum == 1)
+		else if (global.contador >= 215 && global.contador < 1000 && global.momentum == 1)
 		{
-			// base 212
+			// base 215
 		
 			global.momentum = 2
 			if(criar_boss)
