@@ -2,6 +2,14 @@
 // Você pode escrever seu código neste editor
 draw_self();
 
-gpu_set_blendmode(bm_add)
-draw_sprite_ext(sprite_index, image_index, x, y, image_xscale + .2, image_yscale + .2, image_angle, cor,  image_alpha - .3);
-gpu_set_blendmode(bm_normal)
+
+if (global.efeitos)
+{
+	gpu_set_blendmode(bm_add)
+	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale + .2, image_yscale + .2, image_angle, cor,  image_alpha - .3);
+	gpu_set_blendmode(bm_normal)
+}
+else
+{
+	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale + .2, image_yscale + .2, image_angle, cor,  image_alpha - .3);
+}
