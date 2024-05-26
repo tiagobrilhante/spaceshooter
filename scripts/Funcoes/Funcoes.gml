@@ -103,3 +103,11 @@ function para_todas_musicas()
 {
 	audio_stop_all();
 }
+
+global.efeitos = true;
+
+function altera_efeitos()
+{
+	layer_enable_fx("Sequence_Planetas", global.efeitos)
+}
+

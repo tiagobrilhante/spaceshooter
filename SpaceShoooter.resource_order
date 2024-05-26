@@ -88,6 +88,7 @@
     {"name":"fnt_paused","order":2,"path":"fonts/fnt_paused/fnt_paused.yy",},
     {"name":"fnt_pontos","order":1,"path":"fonts/fnt_pontos/fnt_pontos.yy",},
     {"name":"obj_boss_minion","order":1,"path":"objects/obj_boss_minion/obj_boss_minion.yy",},
+    {"name":"obj_botao_fx","order":12,"path":"objects/obj_botao_fx/obj_botao_fx.yy",},
     {"name":"obj_botao_menu_pause","order":1,"path":"objects/obj_botao_menu_pause/obj_botao_menu_pause.yy",},
     {"name":"obj_botao","order":9,"path":"objects/obj_botao/obj_botao.yy",},
     {"name":"obj_control","order":6,"path":"objects/obj_control/obj_control.yy",},
