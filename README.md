@@ -63,7 +63,7 @@ A expressão "Ideas hold power" significa que ideias têm o poder de influenciar
 
 <h3>Explicação para windows</h3>
 <ol> 
- <li><a href="https://drive.google.com/file/d/1TOLMK9Ku-_LXZpQ1qGCZj7jWiXDTGB5y/view?usp=sharing"> Baixe o arquivo aqui e descompacte na sua máquina. </a></li>
+ <li><a href="https://drive.google.com/file/d/1Pbp0l7msthdzo9_8ykahk7mxqIg11IVm/view?usp=sharing"> Baixe o arquivo aqui e descompacte na sua máquina. </a></li>
  <li>Encontre o arquivo executável no interior da pasta descompactada.</li>
  <li>Execute esse arquivo, e seja feliz!</li>
 </ol>
