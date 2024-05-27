@@ -87,6 +87,8 @@ Todo poder emana do código<br>
 <img src="https://i.postimg.cc/K8ck4dkL/tellla11-git.png">
 <img src="https://i.postimg.cc/6pGsVQvN/Captura-de-tela-2024-05-25-173308.png">
 <img src="https://i.postimg.cc/g2G0Btfg/imgsobre.png">
+<img src="https://i.postimg.cc/PJh9PnZJ/historia.png">
+<img src="https://i.postimg.cc/CMH99dTq/historia2.png">
 <img src="https://i.postimg.cc/0Npc2Qtk/Captura-de-tela-2024-05-25-183438.png">
 <img src="https://i.postimg.cc/XNFQgy2L/Captura-de-tela-2024-05-25-173426.png">
 <img src="https://i.postimg.cc/G3QsrL9r/Captura-de-tela-2024-05-25-173531.png">
