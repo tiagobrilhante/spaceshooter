@@ -1,5 +1,5 @@
 texto = "Iniciar";
 
-destino = rm_level1;
+destino = rm_historia_1;
 
 minha_posicao = 1;

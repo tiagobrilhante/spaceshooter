@@ -46,7 +46,7 @@ if(_press && sala_atual == "rm_inicio")
 	if(global.posicao_atual == 1)
 	{
 		var _transicao = instance_create_layer(0,0, "Transicoes", obj_transicao);
-		_transicao.destino = rm_level1;
+		_transicao.destino = rm_historia_1;
 		
 	} 
 	else if(global.posicao_atual == 2)
