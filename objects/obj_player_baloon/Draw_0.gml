@@ -1,9 +1,8 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+draw_self();
 if(instance_exists(obj_player))
 {
-
-	draw_self();
 
 	draw_sprite_ext(spr_player_baloon, 0, obj_player.x + 40, obj_player.y - 50, 1, 1, 0, c_white, 1);
 
