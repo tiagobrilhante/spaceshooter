@@ -6,7 +6,6 @@ if (!global.paused)
 {
 	instance_create_layer(x, y, "Tiros", obj_tiro_minion);
 
-	primeiro_tiro = true;  
 }
 
 alarm[0] = room_speed;
