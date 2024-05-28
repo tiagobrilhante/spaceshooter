@@ -4,8 +4,11 @@
 
 alarm[0] = room_speed;
 
+// começa invi
 
 vida = 10;
+
+escala = 1;
 
 
 // checando colisoes entr eminions

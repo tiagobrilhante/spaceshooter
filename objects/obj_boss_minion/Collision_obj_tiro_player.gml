@@ -3,7 +3,7 @@
 if (vida > 0)
 {
 	vida--;
-	
+
 }
 else
 {

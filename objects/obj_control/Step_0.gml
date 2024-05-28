@@ -146,7 +146,7 @@ if (global.seq_lvl_start == false)
 
 var _qtd_exec_di = 0
 
-if (global.contador >= 212 && global.contador < 215)
+if (global.contador >= 214 && global.contador < 215)
 {
 	_qtd_exec_di++
 	destroi_inimigos();
