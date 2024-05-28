@@ -45,7 +45,7 @@ Você pode acessar o nosso OneSheet <a href="https://drive.google.com/file/d/1bW
 <img src="https://i.postimg.cc/BZgLFvqw/Spraps-World-Modelo2.png">
 
 <br>
-O GDD do projeto se encontra <a href="#">aqui</a>
+O GDD do projeto se encontra <a href="https://drive.google.com/file/d/1Ut7ElxdC09IvZ6RdCrCo019gHkN-n_f6/view?usp=sharing">aqui</a>
 
  
 <h2>Quem é a NotoriousTeam</h2>
